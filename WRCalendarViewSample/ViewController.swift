@@ -20,6 +20,13 @@ class ViewController: UIViewController {
     var titleView: DropDownTitleView!
     var navigationBarMenu: DropDownMenu!
     
+    var nextTitle: String = ""
+    var nextDate = Date()
+    var nextStartTime = Date()
+    var nextFinishedTime = Date()
+    var nextDetail: String = ""
+    
+    var scheduleArray = [Schedule]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -194,9 +201,10 @@ extension ViewController: DropDownMenuDelegate {
                 //検索に成功した時の処理
                 if let schedule = results as? [NCMBObject] {
                     for scheduleInfo in schedule {
+                        let objectID = scheduleInfo.objectId
                         let date = scheduleInfo.object(forKey: "Date") as! String
                         let startTime = scheduleInfo.object(forKey: "StartTime") as! String
-                        
+                        let finishedTime = scheduleInfo.object(forKey: "FinishedTime") as! String
                         //文字列を日付(Date型)に変換
                         let dateFormatter = DateFormatter()
                         dateFormatter.locale = Locale(identifier: "ja_JP")
@@ -206,6 +214,9 @@ extension ViewController: DropDownMenuDelegate {
                         
                         let title = scheduleInfo.object(forKey: "Title") as! String
                         let detail = scheduleInfo.object(forKey: "Detail") as! String
+                        
+                        let schedules = Schedule(objectID: objectID!, date: date, startTime: startTime, finishedTime: finishedTime, title: title, detail: detail)
+                        self.scheduleArray.append(schedules)
                         
                         let hoursSpan = scheduleInfo.object(forKey: "hoursSpan") as! Int
                         let minutesSpan = scheduleInfo.object(forKey: "minutesSpan") as! Int
@@ -229,24 +240,9 @@ extension ViewController: DropDownMenuDelegate {
 extension ViewController: WRWeekViewDelegate {
     // イベントが入っている時にタップされた時の処理
     func selectEvent(_ event: WREvent) {
-        print(event.title)
         self.performSegue(withIdentifier: "toDetail", sender: nil)
+        nextTitle = event.title
         
-        /*
-         // 詳細画面へ値を渡す
-         override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-         // 次の画面を取得(Detail)
-         if segue.identifier == "toDetail" {
-         let detailViewController = segue.destination as! DetailMemoViewController
-         
-         // table上の何が選ばれているかを取得
-         let selectedIndex = memoTableView.indexPathForSelectedRow!
-         
-         detailViewController.selectedMemo = memoArray[selectedIndex.row]
-         }
-         
-         }
-         */
         
     }
     
