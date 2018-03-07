@@ -1,0 +1,2047 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01110204A170CC7BD0FE6C2A1522932C /* Pods-WRCalendarViewSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA7307EE3920B6A1B35361B20E638B4 /* Pods-WRCalendarViewSample-dummy.m */; };
+		01E6F89D906C26E12FFB26B3C84122CD /* NCMBReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C43B100031FAB2939DF657DA5522BC6 /* NCMBReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0281A099B6DF240CD72EE130618B1B0F /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 482DB26692BF1596A2B01C51AB0C21DA /* octicons.ttf */; };
+		03F55A66F1B76B885BFE25D961E45759 /* NCMBDateFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DFF2AC5A720A5E30831BD085BD58D7 /* NCMBDateFormat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		04DCC6FBD9B27C31BD3FA3A608EE2B0A /* NCMBURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = A07CA7F4574485BE1465F876F7D339BC /* NCMBURLSession.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0960F8356D44DFDFC0A091D8C928264D /* NCMBGeoPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F2CD6B766A5952B08C277BC3DB669F /* NCMBGeoPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AD21DC1786FB48A569ABC3E00832D10 /* NCMBRole.h in Headers */ = {isa = PBXBuildFile; fileRef = DED7C2C5F321B2158F70D6BCC6524609 /* NCMBRole.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CC1A0D5DCCABA65D7A7DD3301B25253 /* NCMBObject+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 67023A8EE15F9530FE18620D7ADB8D6B /* NCMBObject+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F41FD3C9349ED3CFAC454FC009ADB13 /* NCMBRelation+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = E94426F7F144630E4D000E7FC14E8A9C /* NCMBRelation+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		113902E55762062A2D48B56D8DAA0532 /* FAKFontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = E8344EE50506B9FE62A025A5B6175632 /* FAKFontAwesome.m */; };
+		13EC3F7CC34FA7A595724F0B5A619218 /* NSDataBase64Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1373DA284B0A854DFEC23F8EFFC1A13C /* NSDataBase64Encode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		163289DC941E999ED33E11F947796272 /* NCMBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E35B020E55FA539C0F19EB41FD6A9E /* NCMBUser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1769170427A6B5C9688007764866EDDA /* foundation-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4D497773531EC1A0D8EE9480E650EC9 /* foundation-icons.ttf */; };
+		1872CD2DA576F188DAFBE6CCA3EC4DCF /* FAKOcticons.h in Headers */ = {isa = PBXBuildFile; fileRef = D00991D6D6DEBD0F675DA0E43A3D6282 /* FAKOcticons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C00CEEA58DC69F70306EB699B985C30 /* NCMBAddOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F74914D6B0D20B2CB950B4C094C2F4 /* NCMBAddOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1D04A68258D5797F1D610B49188B809D /* DropDownMenuKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F62F312F1F2853B3454EB3A306FADD /* DropDownMenuKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D91DEE411B797AA529F7947AA83709C /* NCMBRemoveOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D70620D6356468B5322628374332D45 /* NCMBRemoveOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20F4972599C2A1A53AFA4338B9B906A5 /* WRColumnHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EE03EB0941EF242291A3599CFD6D1A /* WRColumnHeader.swift */; };
+		2166C0EC39F6BB2B691B380B539FE8AD /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F380A65EDA52C6816AA6A0FA6ED89F0 /* CoreText.framework */; };
+		25036ED0F9719A44E720BB85A49E0D5F /* WRTodayBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A6E3D52F73E51B0FE8C0C9CCFC6F8E /* WRTodayBackground.swift */; };
+		2518B47E0F11D166F5207B96C1EFB53B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B091EAF34B2A3879CFB7AF09E004F0 /* Foundation.framework */; };
+		2859B97332840C5C469E8E36B8701578 /* NCMBQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = BB37A62930AFF3479F8B2FAA0824CC33 /* NCMBQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29C7B0E9F161821305B22C1629427025 /* WRWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D017986EECC32FF576A59E98BBACB15 /* WRWeekView.swift */; };
+		2A4C4A91CD681D9E5D379A340D300DD4 /* WRCalendarView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B02658290D96ADC928C882BD83B89A0C /* WRCalendarView-dummy.m */; };
+		2A9D203EC34C999A1BF3EE52B29C8DCB /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC17F4FD92F36A8F8BF80B78230B972F /* NSObjectExtension.swift */; };
+		2BC39A33E21B7A8820E4B2FE48723FB5 /* DateToolsSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3721E6CC63AD0179350F4BF7882C46E /* DateToolsSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CFD39D2CB7AA21602532E5DA9FFF90F /* WREventCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = E4594DF7A99926207ED256C38989CC72 /* WREventCell.xib */; };
+		2D6B876A83643A6DBF637A0155DA4391 /* WREvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA68D9DD6604EE58C67D0DAABE06D6F3 /* WREvent.swift */; };
+		332E15E9E986025C0150030E720D976A /* FAKZocial.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F70AFB22AFF262942017C27082E2FB /* FAKZocial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3376B458232ECFCED5002B98ECD083E7 /* NCMBUser+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A3100395F3B0E6AEC1FF01B9E6C3B25 /* NCMBUser+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		341682B5442D1F8B83F0501D59DAE109 /* DropDownTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78FE7FDC6A55732DBD39214DDD424B8 /* DropDownTitleView.swift */; };
+		3606C90648061DCE5530973C2AC33C0D /* WRCalendarView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F01271B4C897D54BA638B2BC2C9460CA /* WRCalendarView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36AE792BA3F2D519A1312EB80B034315 /* WREventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A399A91010F5EC7432AACE90599B1E /* WREventCell.swift */; };
+		37DA891DDA5E91349A6E7CEF0465CC51 /* FAKIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CB3D29947BEF725B98706AF5E730DA /* FAKIcon.m */; };
+		38A2503266D18932E6F9DE8B56572B67 /* WRCurrentTimeIndicator.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2944DC959E91F4864FECE8A5EB06BE4A /* WRCurrentTimeIndicator.xib */; };
+		38A9A1343CFF40100983CFADC724F304 /* NCMBQuery+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FB2B3FA7FC022770B74A4F5C2D5084E /* NCMBQuery+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3903E2E106D9CF51ECE71DD24F9C8872 /* NCMBQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DD41578C112D9E32A9C167FFE4FE28 /* NCMBQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		390BC1C91BD0E0123D01BE7406336990 /* DropDownMenuKit.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 039BDFA81C8A6E90199D1DA7E2077DE3 /* DropDownMenuKit.xcassets */; };
+		3964A2B00BB8619003961BD7D3BD1AF1 /* FAKIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = F61DCBB6AE43D345C60CEC4C025D9883 /* FAKIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39896AD7E2573C35F4A82C5EB8F04655 /* TimePeriodGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870E0A728977F026C98F59FF230E2C38 /* TimePeriodGroup.swift */; };
+		3DB6D5784A0AED26389CAA7802B08CD6 /* WRColumnHeaderBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BED65C3A4A8847F0622EE5F3F942BE5 /* WRColumnHeaderBackground.swift */; };
+		4520F5469BD4F6BD6F16ED1293A694D8 /* NCMBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE0C8ED03B227F4815FFABFA1F07D5B /* NCMBObject.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		46C79256045B440DCD399B8A454FEA73 /* NCMBACL.h in Headers */ = {isa = PBXBuildFile; fileRef = BDE122A555885432D4689D828FF424FA /* NCMBACL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		477158E1EDBB1E8482F4F8E13DBDCF72 /* NCMB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5695BF462C4CD62F824DA98235031C9B /* NCMB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47B93EA336FE53B8BC62173C4B527525 /* NCMBSetOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D7126DD40D3E8D3E8A73E2E82DF64C /* NCMBSetOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		48C1546EE63E0700B5F3EFCEBFD4C12A /* NCMBObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F0499BCB02BB0D6C463933097A0EC72C /* NCMBObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4904C82AA1B3E8EF76DCA0839AACCB0F /* NCMBScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 626C84755B215B29798E7372F14232A5 /* NCMBScript.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4AEA03365E6DFD3203288595698AB8CC /* Date+Inits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A14037B19CF98BC681B1F020004927 /* Date+Inits.swift */; };
+		4B7E574AEF9BAB8E643CCBA149E8A85F /* FAKFoundationIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D88DFC65B028180D72236EE4751208 /* FAKFoundationIcons.m */; };
+		4CDE6E55DA1C05EF35B015CB8CCCD2FA /* DropDownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 17EF1AD1AE6044C0D3C0A76CFECD18F0 /* DropDownMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E5E70335AC94377291526163247B72A /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF741873733A92D62B05E3767B5E398 /* Date+Format.swift */; };
+		50659BE4953FE9DAB3AF4CBEFCFDB11B /* NCMBRelationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F03BC2C37081D03C4049760EA1D317 /* NCMBRelationOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5093F84F27DF70B22CA692D3485AF2DB /* FAKFontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = B376C9F37ECE0B311D033E8F4A64E04C /* FAKFontAwesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5344C3FE3750DCD46960D37EFB57F740 /* WRRowHeader.xib in Sources */ = {isa = PBXBuildFile; fileRef = F88C4017497EEAF9046D93B6DDA086BB /* WRRowHeader.xib */; };
+		558D7E301E80546D923F4CBF27C1C444 /* NCMBIncrementOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = D94F93E8CED85F914E7CF754A8BFFBB6 /* NCMBIncrementOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		563A18A4003D535DE5E75AA05B342ADB /* DateToolsSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4F64657406D17FF8528E8B1DBE9103 /* DateToolsSwift-dummy.m */; };
+		568E15627786D3F071042C6229CBA483 /* NCMBSetOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BC4297BEC7AC48E120DDDEE4C06D266 /* NCMBSetOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5832280486E1376CBD13F70A8C6F02C6 /* FAKOcticons.m in Sources */ = {isa = PBXBuildFile; fileRef = 435B4622D52F40CF5E30E5D6412EFB41 /* FAKOcticons.m */; };
+		5936C5EFBF40CF4B272CE21DB13EFD4C /* NCMBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7B66691A0ACC5BCAA65D2BE371C2ED /* NCMBRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5C52FA25D306B3E467650BF6BD5C35AE /* WRCurrentTimeIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4710DA5B460D856CD52195337B28A8A0 /* WRCurrentTimeIndicator.swift */; };
+		5C97B56B7994F1393537B4488ADE0FB3 /* TimePeriodCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA863003AAF796E9AD1ADB8F725A3DA /* TimePeriodCollection.swift */; };
+		5E516EEEB94BB900187FDFA3CC2E9FB4 /* Date+Manipulations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DF280D91698AA90EDB1BAD4D3A80AF /* Date+Manipulations.swift */; };
+		60D91C1B735EE9E134F27E56E8567773 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B091EAF34B2A3879CFB7AF09E004F0 /* Foundation.framework */; };
+		61429DACCE41B6118D4695EE0CFFAEA2 /* NCMBInstallation.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9F12AA26F9184CEE172D38B4E43E7B /* NCMBInstallation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		61FA9EF01CB62B6F8F33C42E50CAF536 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 160687AD9CED72DBF143D18F17276A04 /* FontAwesome.otf */; };
+		64042FB45D176E32420CD10239960966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B091EAF34B2A3879CFB7AF09E004F0 /* Foundation.framework */; };
+		64C9F4903A26546EA0BB3B3A899CF915 /* Date+Comparators.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAE7AFE8B431061CFC4708E9BC4470C /* Date+Comparators.swift */; };
+		67330FB7DE571AB7B7A56F084F7C5EAC /* NCMBError.h in Headers */ = {isa = PBXBuildFile; fileRef = 74FB594F5DCBB3EC1971090B947CBBE8 /* NCMBError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A0507497F0419B6E24146DB4DD3168A /* TimePeriodChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245A62AC995471E382CDF0F2C61D9BA8 /* TimePeriodChain.swift */; };
+		6A72C8E44A0E2774C76D073F982E117F /* zocial-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DA36637F22AE325FBE6D9EB78188FFE /* zocial-regular-webfont.ttf */; };
+		6B3C2778C40F244D98903E993A211EB5 /* FAKIonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 7577787DEB13F6BFE58FCBDDEC350502 /* FAKIonIcons.m */; };
+		6C242D4FF6586055E29D9A24CEF8D679 /* NCMBRelation.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B35D28EE152ECFE4BBC6B23E400B63 /* NCMBRelation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6D74D6AE5914578CCC0A8DC4994FFE68 /* NCMBDeleteOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 474A33A1793CC870C04F58990715A3C4 /* NCMBDeleteOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E7D1D65F26E071B668B6C38CE547C8E /* Date+TimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF162BD296C9071F9CAFE87B2404B047 /* Date+TimeAgo.swift */; };
+		6ECEA1038883806E145E7DCD5D02CC24 /* NCMBAnonymousUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FC0CB48774683E90F3A3B6A217BBB2 /* NCMBAnonymousUtils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6ED11884F22ED63874E7303A1BA96F0B /* NCMBAddUniqueOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 50ABC19DE66D0FA5A9EA44C2F80A9D04 /* NCMBAddUniqueOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70644D2FAACDCB954D268086F220F534 /* FAKFoundationIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC33C343ED076F5444985D381B4C428 /* FAKFoundationIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		736BDA866E999B10F20FC59A1A0D2527 /* SubClassHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B60C82D7EC7D8B03A079AB198E00DC /* SubClassHandler.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7384AB611F10D78C88EA41ED92D08D99 /* NCMBGeoPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5A1DC60D97237D145165B9D22BDC7D /* NCMBGeoPoint.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		73C681C37B82BD65FEA0E4E7353369C7 /* NCMBRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 08CC77E452981C3E2D6C7BEDABDD6FC6 /* NCMBRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7579AE9BF5A43BF7E2E6BF78354BA438 /* UIColorExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2A3ED6C42ECF5A3AFFBAFA5F37AC9 /* UIColorExtention.swift */; };
+		771F219C7BC92100CD54E670109CD5F6 /* NCMBCloseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78716FF49A3207BABF8892ED71FD9A19 /* NCMBCloseImageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		783F1AADEF0E9A74D126C837505D7666 /* NCMBReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 30597B0A12F3C0EA2563FA3820F73F32 /* NCMBReachability.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7958920401E7289C57B9EA6F9F3CD4F4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE99CE26D035E30EC8ED20EA01D7B2B6 /* SystemConfiguration.framework */; };
+		7A94BB5B8DA938A5F631DEF9DCAA7F28 /* WRCornerHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941E19A1B834F980FB76147531B4465 /* WRCornerHeader.swift */; };
+		7AB25D5CEC99CF7616050F32E9431EF9 /* DropDownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B3BB162328174BC462F50D5C0E4FF2 /* DropDownMenu.swift */; };
+		7D23E46ED69E72257A3CBBBF822C83DB /* NCMBRelationOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBA61C7109AB8F395338E114E6FF950 /* NCMBRelationOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E6665FDD278E4F4D7F221BCA58017C5 /* WRCurrentTimeGridline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F69AAA3656B07AB76B0CE4F1378B8D0 /* WRCurrentTimeGridline.swift */; };
+		7F1D460E3549B997C77C233442ACBF79 /* NSDataBase64Encode.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC2A17218A28DFFE0F8FE30891ADAB0 /* NSDataBase64Encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8267189738A27E9FB0B3B61F0B2C84CA /* FAKMaterialIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = D26B5EE474DBE220C128C18259A4BD92 /* FAKMaterialIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86F415AA947E35460F8C999242561559 /* DateToolsSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6967C19D82C7FBAD63F769817D3900BF /* DateToolsSwift.framework */; };
+		87C947CF3B3F514D133B19A1411E07E7 /* NCMBFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 341B493E865ABCAD75428D98357CF67B /* NCMBFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AA3159317D068DBD10C1208D9CC6E9C /* WRCalendarView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6A9477D89A66C7D9382B8C991601D19C /* WRCalendarView.bundle */; };
+		8DE85BAA4F1FC658C1983C11A3F44E3E /* WRColumnHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EEE0510CB231AD5B5A10C725FFA6281 /* WRColumnHeader.xib */; };
+		8F26A8E3DF2D46505846EE66D08BB7CE /* NCMBDeleteOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8552D51FAEEA2A55FAD7906CDF963F6D /* NCMBDeleteOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		938D935663C0EBB7C19BA6E739F9F5C9 /* NCMBFile.m in Sources */ = {isa = PBXBuildFile; fileRef = DED45946992460B7E112ECA08A503CCF /* NCMBFile.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9399F21B18F6C63069BB52D584BAA462 /* NCMBACL.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAC8907EC508C0EBF954004C44A93B9 /* NCMBACL.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9677C3BFCAF4C5327015A6E4041AEED8 /* NCMBAddUniqueOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9972FD8AD4160A0D62FAC6FE45CB9C13 /* NCMBAddUniqueOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		96B8F15B724A7636DAEF1C2C0620A428 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5142DFA3FBE3FC7C6CFCF2389443716 /* StringExtension.swift */; };
+		96F8DB29728F1F5E2BB3F9B1B52C7140 /* NCMBConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 7834DE0A5522414C2B318894FECE70BA /* NCMBConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98BFEE168FB76FD66D3076A7604DC550 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471303C6FF045001DFEFA0A3FCEFCCAA /* MobileCoreServices.framework */; };
+		993F399B0D5211CD8B4E46B0568AFD6D /* NCMBUser.h in Headers */ = {isa = PBXBuildFile; fileRef = EB0C2ECF7D6530FE9756406552BF1D68 /* NCMBUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99D62A3C6928E8C7BD61E2C98E5A360F /* FontAwesomeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FAD1DA83CBE813AB7FEFC03172FCB60 /* FontAwesomeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99E3BEA8FC5191DC18AF7BF32A6E9086 /* Date+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E9EAFFB540AD778AAA877256F938E /* Date+Bundle.swift */; };
+		9BF8930E69FAFBCFCA70563E4775913F /* FontAwesomeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E3DA6537D640B7DEB48C7B37FC5D831 /* FontAwesomeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E26F2E8DB237BD1F39D4D55CCC78599 /* NCMBInstallation.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FC4BD2B411B3940C0D7FD35B24CFB2 /* NCMBInstallation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1D008A25471566FFA4251DACBF0146A /* NCMBScriptService.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C0D49481632136A26F9B337165EB80B /* NCMBScriptService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3AE12C8E86BD923BBD4587F655FC0BA /* NCMBPush.h in Headers */ = {isa = PBXBuildFile; fileRef = 48AB85D72F0819A0B2077D904556478C /* NCMBPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A52FA1C4B627FD0C18F98F9A8C9C5C5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B091EAF34B2A3879CFB7AF09E004F0 /* Foundation.framework */; };
+		A6689020E1BD51358E6780B1505FDA50 /* NCMBError.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D083200FD2C5C5740D0775D44BCE062 /* NCMBError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A6D1C9304CF49244EB5D99A69971A8EE /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7CD0435EB749ED28B9271007EE10D8D /* ionicons.ttf */; };
+		A9CBB9E57D487A9393CDBB5627BEF362 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B091EAF34B2A3879CFB7AF09E004F0 /* Foundation.framework */; };
+		AAB052ACD1C2F5CD61EA09A67BE5938F /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = F913A00AC61DB82723EAF1E2FCCA09EE /* Enums.swift */; };
+		B0A382528DC015EFD81F39C35D669F8E /* TimePeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0226FEDA77424AD4FC56DCFA6D9B901F /* TimePeriod.swift */; };
+		B3AF6DF1E8C988A145AB688DC2831DF4 /* WRCurrentTimeIndicator.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2944DC959E91F4864FECE8A5EB06BE4A /* WRCurrentTimeIndicator.xib */; };
+		B469F5E257EFB98D358B72CE0CA459A2 /* NCMBRole.m in Sources */ = {isa = PBXBuildFile; fileRef = 9750FA12500BA7A0FFF496FD9C72C2EC /* NCMBRole.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B471302A64458767EDFEEE22CE37CC28 /* WRRowHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = F88C4017497EEAF9046D93B6DDA086BB /* WRRowHeader.xib */; };
+		B49247130B057284F1D321FE0CDCCC1A /* NCMB.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F832F3E2552E9CB52C454AE7FCBD84 /* NCMB.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B5679B5D696C1D6D95FB8798606E5844 /* WREventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4594DF7A99926207ED256C38989CC72 /* WREventCell.xib */; };
+		B8F613743A15EF8CC206DC20D96BE90E /* NCMB.h in Headers */ = {isa = PBXBuildFile; fileRef = DCE3920FA3E719394C32F7265291D47B /* NCMB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B98B26D76E50DE44887EDA3096028C46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B091EAF34B2A3879CFB7AF09E004F0 /* Foundation.framework */; };
+		B9970DE19ABA09FFCDB5BE59D0BDE2F4 /* NCMBScript.h in Headers */ = {isa = PBXBuildFile; fileRef = 08237AE471D2891F414FBFC7C9AFB684 /* NCMBScript.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA3E3A52D273C9C4118A7F066E3955E8 /* NCMBAddOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E8788C622F44DCD11FB18EFACB7C452F /* NCMBAddOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB377AC3B7923B0182478FB34EAAC42D /* FAKMaterialIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 72ED00A1FC48FEE23A30A52DF399468F /* FAKMaterialIcons.m */; };
+		C0BA12E6FF13BCD3D8129522B3BC6ACF /* DateTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 95CF31D14362352404F32593087D1E62 /* DateTools.bundle */; };
+		C0E1F8C7D7A6577FC7A89B61E29C98CC /* DropDownMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27CB5D33F068D07E257FBB5BC49D1A5 /* DropDownMenuCell.swift */; };
+		C197E19190839F8B6E828499F1E367EF /* WRRowHeaderBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD418057111A85BDBD3CF947C7AE253F /* WRRowHeaderBackground.swift */; };
+		C68BC568ECC6AF7BFE42C53C0FA758F0 /* NCMBRichPushView.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B621C7F6135906A3E235A9CD5C2524 /* NCMBRichPushView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7DA2447575E683C18E8A452A886B85C /* FontAwesomeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD22FDE2EACB058404EFC600611D7B93 /* FontAwesomeKit-dummy.m */; };
+		C86013B1823BA874D74482E39CD0125B /* NCMBScriptService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EDDD8C3A8A37DE79A5F414240B430 /* NCMBScriptService.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CA1EF16FA3F663B3C744CC36280FA56E /* Pods-WRCalendarViewSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29457D48AF72E4BE59E9755193FDF985 /* Pods-WRCalendarViewSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA9DA9B7D293B98B793E3EEDBC2F94C8 /* DropDownMenuKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A92EFB79E7386ABEEA43C05621F0E2AD /* DropDownMenuKit-dummy.m */; };
+		CF4DCA1132594DE49BE1499E971DE9E6 /* NCMBSubclassing.h in Headers */ = {isa = PBXBuildFile; fileRef = 4346B4C4630CC898D3DA1CB4AF89BDEF /* NCMBSubclassing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF5D8B4AF5B35B5BA1E01A9C368445C0 /* WRGridLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CACB3E4D1E11D445F2BE7DC5DBE2C43 /* WRGridLine.swift */; };
+		D0AFFD17203C216F7FE5A3B7C0F36A51 /* NCMBAnonymousUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = BE426210FF083C8D94F1C4158E04366E /* NCMBAnonymousUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1FD3FEE20EBE81BCABFEDC4D90B177F /* NCMBRichPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C64A8054753385836B150C1A786974 /* NCMBRichPushView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D26832C96E013704F116A04D12D9B10D /* FAKIonIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E4B05C9FAA95B0F7FD84B60A4A84C8 /* FAKIonIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2D1BEDBC632B48D5F9FE99BDAB05022 /* NCMBDateFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 02D388D68DC62BF892B82175F921DBC2 /* NCMBDateFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D327632C06E3B012E8956FFC6A4219EB /* FAKZocial.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7D85341D9E12D97AB07B037616FFBC /* FAKZocial.m */; };
+		D388A0F9B42B452E9C3608AEF73379D7 /* NCMB_umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0951F822B5B2820CE48598CCF6F69BF /* NCMB_umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D687A0D4AE287B5232E0D03BDEF606DD /* NCMBIncrementOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 660577B5BAA42D6F7EB75372B22A849B /* NCMBIncrementOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D714A77D898EB9A59A3FA1832FBADC22 /* WRColumnHeader.xib in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE0510CB231AD5B5A10C725FFA6281 /* WRColumnHeader.xib */; };
+		D87906DC79FE482BA02C13900CD5B463 /* WRRowHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D070CFA93BE895375C6D2397E95CF893 /* WRRowHeader.swift */; };
+		D9084AD86F485C102AFFF36F7275F873 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801D151CA26DE1DB30193FF71626AFFE /* UIKit.framework */; };
+		DA770B19AF7C2D1F934DE2A5CD6C617C /* TimeChunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = B090517D088773137B399C1E9B911634 /* TimeChunk.swift */; };
+		DA95B114A678AD527E06F972D7B41004 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3AB48EC39B247DB039F6F2216E3FCB1 /* AudioToolbox.framework */; };
+		DAB4F8CB9903C229528E2141BD54B9D8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BD8B9780C7A2BA0D3DAF126BC1B1E1 /* Constants.swift */; };
+		DB67CBBD76DD779B15EE65AD2C972AAB /* NCMBAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F4A4D7B38F4B1EEB6AFB63DD2A4E7D /* NCMBAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF3F196D29C2CB7C3B3F52C0A1D70BD8 /* NCMBRemoveOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7958DEA6897D78DD85EA92565047E8AA /* NCMBRemoveOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DFF1957B63D91AF9BDDE95C5F9B56CE6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DED9EBE9819D578483E38C93E0DC98F /* Constants.swift */; };
+		E9AD7EE2AD3C96C08F6F0040DDC767FA /* NCMBCloseImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 217B07F91CE322943FA27BB944DD2B9F /* NCMBCloseImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC3AA70E889C164C8AFF45BD9396C42F /* NCMBPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F12E52347AFAA019466DDD7AE0904E7 /* NCMBPush.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EEA0822E3167202EDF608DE6F404AE95 /* NCMBURLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F1DCEF6AB4AC5D84BFB2CD3DAFF2574 /* NCMBURLSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EED12DA3B3BD6B6598A327DEF7D28817 /* Integer+DateTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2049C0A7F9969379069A4D89421E28AD /* Integer+DateTools.swift */; };
+		EF8A83F94EDB6C7C42F36FFF618D0526 /* Date+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9739770EADA66B0C99E1C92736541552 /* Date+Components.swift */; };
+		F2E3F4563E3F63A00B3C56AD3CE52661 /* NCMBRelation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CAA2FEA079ECC4CB0B620A305C42973 /* NCMBRelation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5CBD1B3482A17D151209E504C3222EB /* NCMBObject+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D7569C1968ADEEFDC5B4DA1D8719077 /* NCMBObject+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F64EBD2AD2390EBD24ECABADE73EF702 /* NCMB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8390179C45A0932B3A0CB6114CFCDE05 /* NCMB-dummy.m */; };
+		F8461CFABE3044D91CB2B4A681300A13 /* NCMBAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A01C1C44BE8F2ACA2B7B47BEE8E02DE /* NCMBAnalytics.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FA4FC81559299ECD8FAE330C25CBB5DC /* WRWeekViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA451E566C8CA155BB7F26864F4644FA /* WRWeekViewFlowLayout.swift */; };
+		FAA3DAE967FF67C21B6F3F730A9EEB59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801D151CA26DE1DB30193FF71626AFFE /* UIKit.framework */; };
+		FDFB10982DFB0AE07FB9571456B05CC7 /* Material-Design-Iconic-Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEA29CC403B08E083237AB945AA9FFEA /* Material-Design-Iconic-Font.ttf */; };
+		FE258945D8EC4D7487139CBDCA6E327F /* SubClassHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = C6252D0D8F0F92BB67AF027C8B35CE34 /* SubClassHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		155FCFE2454894DD08B5D8EFB88CAC16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B4D1062592D6CA47806B79F65E795E2;
+			remoteInfo = "WRCalendarView-WRCalendarView";
+		};
+		18E448D63FA4BDC88E5755F159433D46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FAACA1020A0109BC651F7DD4E1C82F0;
+			remoteInfo = WRCalendarView;
+		};
+		48B50956572D3AE78B06505485E04A5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E89CFD99B895BCC6E8EDC2F95A03500C;
+			remoteInfo = DateToolsSwift;
+		};
+		514FD7C5A1CEF109D65701321A77DDCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70150FD598FAA13FDC9795CCE8F76926;
+			remoteInfo = NCMB;
+		};
+		BEBE3BF46D907434C964D59D87745D58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8E1DFAA9703A5C068D915A4C272EA21;
+			remoteInfo = FontAwesomeKit;
+		};
+		C42D55EA2E647F73B3F459C347595F12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E89CFD99B895BCC6E8EDC2F95A03500C;
+			remoteInfo = DateToolsSwift;
+		};
+		C6AFFCBCB10BA8A1E0ACEC5ED696940A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3B0D4ADAAB95D2754E11D3C6B547D09;
+			remoteInfo = DropDownMenuKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0226FEDA77424AD4FC56DCFA6D9B901F /* TimePeriod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriod.swift; path = DateToolsSwift/DateTools/TimePeriod.swift; sourceTree = "<group>"; };
+		02D388D68DC62BF892B82175F921DBC2 /* NCMBDateFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBDateFormat.h; path = NCMB/NCMBDateFormat.h; sourceTree = "<group>"; };
+		039A48BD11FDEA14A91B76C22CE01A1E /* FontAwesomeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FontAwesomeKit.framework; path = FontAwesomeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		039BDFA81C8A6E90199D1DA7E2077DE3 /* DropDownMenuKit.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = DropDownMenuKit.xcassets; sourceTree = "<group>"; };
+		03F62F312F1F2853B3454EB3A306FADD /* DropDownMenuKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDownMenuKit-umbrella.h"; sourceTree = "<group>"; };
+		08237AE471D2891F414FBFC7C9AFB684 /* NCMBScript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBScript.h; path = NCMB/NCMBScript.h; sourceTree = "<group>"; };
+		08CC77E452981C3E2D6C7BEDABDD6FC6 /* NCMBRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRequest.h; path = NCMB/NCMBRequest/NCMBRequest.h; sourceTree = "<group>"; };
+		0BA7307EE3920B6A1B35361B20E638B4 /* Pods-WRCalendarViewSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WRCalendarViewSample-dummy.m"; sourceTree = "<group>"; };
+		0DED9EBE9819D578483E38C93E0DC98F /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = DateToolsSwift/DateTools/Constants.swift; sourceTree = "<group>"; };
+		10E4F551B2D62AF790418880DCF15FF3 /* NCMB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NCMB.framework; path = NCMB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1373DA284B0A854DFEC23F8EFFC1A13C /* NSDataBase64Encode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NSDataBase64Encode.m; path = NCMB/NSDataBase64Encode/NSDataBase64Encode.m; sourceTree = "<group>"; };
+		15B091EAF34B2A3879CFB7AF09E004F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		15B3BB162328174BC462F50D5C0E4FF2 /* DropDownMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DropDownMenu.swift; sourceTree = "<group>"; };
+		160687AD9CED72DBF143D18F17276A04 /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.otf; path = FontAwesomeKit/FontAwesome.otf; sourceTree = "<group>"; };
+		17EF1AD1AE6044C0D3C0A76CFECD18F0 /* DropDownMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DropDownMenu.h; sourceTree = "<group>"; };
+		1953CBEB1C46CE31A3D64A724FFE9818 /* Pods-WRCalendarViewSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WRCalendarViewSample-resources.sh"; sourceTree = "<group>"; };
+		1A01C1C44BE8F2ACA2B7B47BEE8E02DE /* NCMBAnalytics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAnalytics.m; path = NCMB/NCMBAnalytics.m; sourceTree = "<group>"; };
+		1D4F64657406D17FF8528E8B1DBE9103 /* DateToolsSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DateToolsSwift-dummy.m"; sourceTree = "<group>"; };
+		1D7569C1968ADEEFDC5B4DA1D8719077 /* NCMBObject+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBObject+Private.h"; path = "NCMB/PrivateHeaders/NCMBObject+Private.h"; sourceTree = "<group>"; };
+		1E4E1EDE9589ECFBF1B32E623301CEF0 /* ResourceBundle-WRCalendarView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WRCalendarView-Info.plist"; sourceTree = "<group>"; };
+		1EEE0510CB231AD5B5A10C725FFA6281 /* WRColumnHeader.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = WRColumnHeader.xib; path = WRCalendarView/Views/WRColumnHeader.xib; sourceTree = "<group>"; };
+		1F69AAA3656B07AB76B0CE4F1378B8D0 /* WRCurrentTimeGridline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WRCurrentTimeGridline.swift; path = WRCalendarView/Views/WRCurrentTimeGridline.swift; sourceTree = "<group>"; };
+		1FF741873733A92D62B05E3767B5E398 /* Date+Format.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Format.swift"; path = "DateToolsSwift/DateTools/Date+Format.swift"; sourceTree = "<group>"; };
+		2049C0A7F9969379069A4D89421E28AD /* Integer+DateTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Integer+DateTools.swift"; path = "DateToolsSwift/DateTools/Integer+DateTools.swift"; sourceTree = "<group>"; };
+		217B07F91CE322943FA27BB944DD2B9F /* NCMBCloseImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBCloseImageView.h; path = NCMB/NCMBRichPush/NCMBCloseImageView.h; sourceTree = "<group>"; };
+		22CB6CAF1DCBF11841FECCEFADC94469 /* DateToolsSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DateToolsSwift.modulemap; sourceTree = "<group>"; };
+		23B621C7F6135906A3E235A9CD5C2524 /* NCMBRichPushView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRichPushView.h; path = NCMB/NCMBRichPush/NCMBRichPushView.h; sourceTree = "<group>"; };
+		245A62AC995471E382CDF0F2C61D9BA8 /* TimePeriodChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodChain.swift; path = DateToolsSwift/DateTools/TimePeriodChain.swift; sourceTree = "<group>"; };
+		248F2B076CC469D7739774C132CE296B /* Pods-WRCalendarViewSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WRCalendarViewSample.debug.xcconfig"; sourceTree = "<group>"; };
+		24D7126DD40D3E8D3E8A73E2E82DF64C /* NCMBSetOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBSetOperation.m; path = NCMB/Operations/NCMBSetOperation.m; sourceTree = "<group>"; };
+		25087D7E504DA88977044ED277A978EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25FC0CB48774683E90F3A3B6A217BBB2 /* NCMBAnonymousUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAnonymousUtils.m; path = NCMB/NCMBAnonymousUtils.m; sourceTree = "<group>"; };
+		2941E19A1B834F980FB76147531B4465 /* WRCornerHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WRCornerHeader.swift; path = WRCalendarView/Views/WRCornerHeader.swift; sourceTree = "<group>"; };
+		2944DC959E91F4864FECE8A5EB06BE4A /* WRCurrentTimeIndicator.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = WRCurrentTimeIndicator.xib; path = WRCalendarView/Views/WRCurrentTimeIndicator.xib; sourceTree = "<group>"; };
+		29457D48AF72E4BE59E9755193FDF985 /* Pods-WRCalendarViewSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WRCalendarViewSample-umbrella.h"; sourceTree = "<group>"; };
+		2A8D1287F8A95278B2DE5E945AFCB246 /* Pods-WRCalendarViewSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WRCalendarViewSample.modulemap"; sourceTree = "<group>"; };
+		2BED65C3A4A8847F0622EE5F3F942BE5 /* WRColumnHeaderBackground.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WRColumnHeaderBackground.swift; path = WRCalendarView/Views/WRColumnHeaderBackground.swift; sourceTree = "<group>"; };
+		2E9EDDD8C3A8A37DE79A5F414240B430 /* NCMBScriptService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBScriptService.m; path = NCMB/NCMBScriptService/NCMBScriptService.m; sourceTree = "<group>"; };
+		2F380A65EDA52C6816AA6A0FA6ED89F0 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		2FAD1DA83CBE813AB7FEFC03172FCB60 /* FontAwesomeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit-umbrella.h"; sourceTree = "<group>"; };
+		30597B0A12F3C0EA2563FA3820F73F32 /* NCMBReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBReachability.m; path = NCMB/NCMBReachability/NCMBReachability.m; sourceTree = "<group>"; };
+		341B493E865ABCAD75428D98357CF67B /* NCMBFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBFile.h; path = NCMB/NCMBFile.h; sourceTree = "<group>"; };
+		34337BF9EC9088D54B005844FB68AA23 /* DateToolsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DateToolsSwift.framework; path = DateToolsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A6E3D52F73E51B0FE8C0C9CCFC6F8E /* WRTodayBackground.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WRTodayBackground.swift; path = WRCalendarView/Views/WRTodayBackground.swift; sourceTree = "<group>"; };
+		38DD41578C112D9E32A9C167FFE4FE28 /* NCMBQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBQuery.m; path = NCMB/NCMBQuery.m; sourceTree = "<group>"; };
+		3A0A5FA50C03D56C41C28D78D50526A6 /* Pods_WRCalendarViewSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WRCalendarViewSample.framework; path = "Pods-WRCalendarViewSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D017986EECC32FF576A59E98BBACB15 /* WRWeekView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WRWeekView.swift; path = WRCalendarView/WeekView/WRWeekView.swift; sourceTree = "<group>"; };
+		3E5A1DC60D97237D145165B9D22BDC7D /* NCMBGeoPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBGeoPoint.m; path = NCMB/NCMBGeoPoint.m; sourceTree = "<group>"; };
+		3F1DCEF6AB4AC5D84BFB2CD3DAFF2574 /* NCMBURLSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBURLSession.h; path = NCMB/NCMBURLSession/NCMBURLSession.h; sourceTree = "<group>"; };
+		3FB2B3FA7FC022770B74A4F5C2D5084E /* NCMBQuery+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBQuery+Private.h"; path = "NCMB/PrivateHeaders/NCMBQuery+Private.h"; sourceTree = "<group>"; };
+		4346B4C4630CC898D3DA1CB4AF89BDEF /* NCMBSubclassing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBSubclassing.h; path = NCMB/NCMBSubclassing.h; sourceTree = "<group>"; };
+		435B4622D52F40CF5E30E5D6412EFB41 /* FAKOcticons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKOcticons.m; path = FontAwesomeKit/FAKOcticons.m; sourceTree = "<group>"; };
+		43F4A4D7B38F4B1EEB6AFB63DD2A4E7D /* NCMBAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAnalytics.h; path = NCMB/NCMBAnalytics.h; sourceTree = "<group>"; };
+		44C64A8054753385836B150C1A786974 /* NCMBRichPushView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRichPushView.m; path = NCMB/NCMBRichPush/NCMBRichPushView.m; sourceTree = "<group>"; };
+		4710DA5B460D856CD52195337B28A8A0 /* WRCurrentTimeIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WRCurrentTimeIndicator.swift; path = WRCalendarView/Views/WRCurrentTimeIndicator.swift; sourceTree = "<group>"; };
+		471303C6FF045001DFEFA0A3FCEFCCAA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		474A33A1793CC870C04F58990715A3C4 /* NCMBDeleteOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBDeleteOperation.h; path = NCMB/Operations/NCMBDeleteOperation.h; sourceTree = "<group>"; };
+		482DB26692BF1596A2B01C51AB0C21DA /* octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = octicons.ttf; path = FontAwesomeKit/octicons.ttf; sourceTree = "<group>"; };
+		48A14037B19CF98BC681B1F020004927 /* Date+Inits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Inits.swift"; path = "DateToolsSwift/DateTools/Date+Inits.swift"; sourceTree = "<group>"; };
+		48AB85D72F0819A0B2077D904556478C /* NCMBPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBPush.h; path = NCMB/NCMBPush.h; sourceTree = "<group>"; };
+		4983C122A914B8079E2947BF7A2F75AA /* FontAwesomeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit-prefix.pch"; sourceTree = "<group>"; };
+		4CAA2FEA079ECC4CB0B620A305C42973 /* NCMBRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRelation.h; path = NCMB/NCMBRelation.h; sourceTree = "<group>"; };
+		50ABC19DE66D0FA5A9EA44C2F80A9D04 /* NCMBAddUniqueOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAddUniqueOperation.h; path = NCMB/Operations/NCMBAddUniqueOperation.h; sourceTree = "<group>"; };
+		51D2A3ED6C42ECF5A3AFFBAFA5F37AC9 /* UIColorExtention.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtention.swift; path = WRCalendarView/Helpers/UIColorExtention.swift; sourceTree = "<group>"; };
+		52FC4BD2B411B3940C0D7FD35B24CFB2 /* NCMBInstallation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBInstallation.h; path = NCMB/NCMBInstallation.h; sourceTree = "<group>"; };
+		55B35D28EE152ECFE4BBC6B23E400B63 /* NCMBRelation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRelation.m; path = NCMB/NCMBRelation.m; sourceTree = "<group>"; };
+		5695BF462C4CD62F824DA98235031C9B /* NCMB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCMB-umbrella.h"; sourceTree = "<group>"; };
+		57C6DD0525C7E645DB221138D5A35FD2 /* DropDownMenuKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDownMenuKit-prefix.pch"; sourceTree = "<group>"; };
+		5BA863003AAF796E9AD1ADB8F725A3DA /* TimePeriodCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodCollection.swift; path = DateToolsSwift/DateTools/TimePeriodCollection.swift; sourceTree = "<group>"; };
+		5BC4297BEC7AC48E120DDDEE4C06D266 /* NCMBSetOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBSetOperation.h; path = NCMB/Operations/NCMBSetOperation.h; sourceTree = "<group>"; };
+		5CACB3E4D1E11D445F2BE7DC5DBE2C43 /* WRGridLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WRGridLine.swift; path = WRCalendarView/Views/WRGridLine.swift; sourceTree = "<group>"; };
+		5E806747A42F62C095E0DE0E1EF7F693 /* WRCalendarView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WRCalendarView.modulemap; sourceTree = "<group>"; };
+		5EFE032D7A8445B41F6DF48DC7270984 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		626C84755B215B29798E7372F14232A5 /* NCMBScript.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBScript.m; path = NCMB/NCMBScript.m; sourceTree = "<group>"; };
+		64485CB0864DB4AF51033FDDC0DB3B81 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660577B5BAA42D6F7EB75372B22A849B /* NCMBIncrementOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBIncrementOperation.m; path = NCMB/Operations/NCMBIncrementOperation.m; sourceTree = "<group>"; };
+		67023A8EE15F9530FE18620D7ADB8D6B /* NCMBObject+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBObject+Subclass.h"; path = "NCMB/NCMBObject+Subclass.h"; sourceTree = "<group>"; };
+		67F832F3E2552E9CB52C454AE7FCBD84 /* NCMB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMB.m; path = NCMB/NCMB.m; sourceTree = "<group>"; };
+		6862E87F935D101E1A5741A394DC4B5A /* WRCalendarView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WRCalendarView.xcconfig; sourceTree = "<group>"; };
+		6967C19D82C7FBAD63F769817D3900BF /* DateToolsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DateToolsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A9477D89A66C7D9382B8C991601D19C /* WRCalendarView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WRCalendarView.bundle; path = "WRCalendarView-WRCalendarView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE0C8ED03B227F4815FFABFA1F07D5B /* NCMBObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBObject.m; path = NCMB/NCMBObject.m; sourceTree = "<group>"; };
+		6D083200FD2C5C5740D0775D44BCE062 /* NCMBError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBError.m; path = NCMB/NCMBError.m; sourceTree = "<group>"; };
+		6D70620D6356468B5322628374332D45 /* NCMBRemoveOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRemoveOperation.h; path = NCMB/Operations/NCMBRemoveOperation.h; sourceTree = "<group>"; };
+		72ED00A1FC48FEE23A30A52DF399468F /* FAKMaterialIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKMaterialIcons.m; path = FontAwesomeKit/FAKMaterialIcons.m; sourceTree = "<group>"; };
+		73E4B05C9FAA95B0F7FD84B60A4A84C8 /* FAKIonIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIonIcons.h; path = FontAwesomeKit/FAKIonIcons.h; sourceTree = "<group>"; };
+		74FB594F5DCBB3EC1971090B947CBBE8 /* NCMBError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBError.h; path = NCMB/NCMBError.h; sourceTree = "<group>"; };
+		7577787DEB13F6BFE58FCBDDEC350502 /* FAKIonIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIonIcons.m; path = FontAwesomeKit/FAKIonIcons.m; sourceTree = "<group>"; };
+		75EE03EB0941EF242291A3599CFD6D1A /* WRColumnHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WRColumnHeader.swift; path = WRCalendarView/Views/WRColumnHeader.swift; sourceTree = "<group>"; };
+		7834DE0A5522414C2B318894FECE70BA /* NCMBConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBConstants.h; path = NCMB/NCMBConstants.h; sourceTree = "<group>"; };
+		78716FF49A3207BABF8892ED71FD9A19 /* NCMBCloseImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBCloseImageView.m; path = NCMB/NCMBRichPush/NCMBCloseImageView.m; sourceTree = "<group>"; };
+		7958DEA6897D78DD85EA92565047E8AA /* NCMBRemoveOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRemoveOperation.m; path = NCMB/Operations/NCMBRemoveOperation.m; sourceTree = "<group>"; };
+		79F2CD6B766A5952B08C277BC3DB669F /* NCMBGeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBGeoPoint.h; path = NCMB/NCMBGeoPoint.h; sourceTree = "<group>"; };
+		7C43B100031FAB2939DF657DA5522BC6 /* NCMBReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBReachability.h; path = NCMB/NCMBReachability/NCMBReachability.h; sourceTree = "<group>"; };
+		7D3FC102D4F584B91965590E332F15F7 /* FontAwesomeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesomeKit.xcconfig; sourceTree = "<group>"; };
+		7F12E52347AFAA019466DDD7AE0904E7 /* NCMBPush.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBPush.m; path = NCMB/NCMBPush.m; sourceTree = "<group>"; };
+		7F33EBA969046B0204730559DEAC4467 /* NCMB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCMB-prefix.pch"; sourceTree = "<group>"; };
+		801D151CA26DE1DB30193FF71626AFFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		82E35B020E55FA539C0F19EB41FD6A9E /* NCMBUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBUser.m; path = NCMB/NCMBUser.m; sourceTree = "<group>"; };
+		8390179C45A0932B3A0CB6114CFCDE05 /* NCMB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NCMB-dummy.m"; sourceTree = "<group>"; };
+		84DFF2AC5A720A5E30831BD085BD58D7 /* NCMBDateFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBDateFormat.m; path = NCMB/NCMBDateFormat.m; sourceTree = "<group>"; };
+		8552D51FAEEA2A55FAD7906CDF963F6D /* NCMBDeleteOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBDeleteOperation.m; path = NCMB/Operations/NCMBDeleteOperation.m; sourceTree = "<group>"; };
+		870E0A728977F026C98F59FF230E2C38 /* TimePeriodGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodGroup.swift; path = DateToolsSwift/DateTools/TimePeriodGroup.swift; sourceTree = "<group>"; };
+		8C0D49481632136A26F9B337165EB80B /* NCMBScriptService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBScriptService.h; path = NCMB/NCMBScriptService/NCMBScriptService.h; sourceTree = "<group>"; };
+		8DA36637F22AE325FBE6D9EB78188FFE /* zocial-regular-webfont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "zocial-regular-webfont.ttf"; path = "FontAwesomeKit/zocial-regular-webfont.ttf"; sourceTree = "<group>"; };
+		91F482165D27138C4CAD5D5DCFBAD4D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94D9F33709AB5B084DEA51BD5A29318F /* DropDownMenuKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDownMenuKit.framework; path = DropDownMenuKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95CF31D14362352404F32593087D1E62 /* DateTools.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DateTools.bundle; path = DateToolsSwift/DateTools/DateTools.bundle; sourceTree = "<group>"; };
+		96D88DFC65B028180D72236EE4751208 /* FAKFoundationIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFoundationIcons.m; path = FontAwesomeKit/FAKFoundationIcons.m; sourceTree = "<group>"; };
+		9739770EADA66B0C99E1C92736541552 /* Date+Components.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Components.swift"; path = "DateToolsSwift/DateTools/Date+Components.swift"; sourceTree = "<group>"; };
+		9750FA12500BA7A0FFF496FD9C72C2EC /* NCMBRole.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRole.m; path = NCMB/NCMBRole.m; sourceTree = "<group>"; };
+		9972FD8AD4160A0D62FAC6FE45CB9C13 /* NCMBAddUniqueOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAddUniqueOperation.m; path = NCMB/Operations/NCMBAddUniqueOperation.m; sourceTree = "<group>"; };
+		9A3100395F3B0E6AEC1FF01B9E6C3B25 /* NCMBUser+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBUser+Private.h"; path = "NCMB/PrivateHeaders/NCMBUser+Private.h"; sourceTree = "<group>"; };
+		9E3DA6537D640B7DEB48C7B37FC5D831 /* FontAwesomeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FontAwesomeKit.h; path = FontAwesomeKit/FontAwesomeKit.h; sourceTree = "<group>"; };
+		9FCC8531C8D77306787AA7CDFD14B703 /* WRCalendarView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WRCalendarView-prefix.pch"; sourceTree = "<group>"; };
+		A07CA7F4574485BE1465F876F7D339BC /* NCMBURLSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBURLSession.m; path = NCMB/NCMBURLSession/NCMBURLSession.m; sourceTree = "<group>"; };
+		A1CB3D29947BEF725B98706AF5E730DA /* FAKIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIcon.m; path = FontAwesomeKit/FAKIcon.m; sourceTree = "<group>"; };
+		A3721E6CC63AD0179350F4BF7882C46E /* DateToolsSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DateToolsSwift-umbrella.h"; sourceTree = "<group>"; };
+		A5DF280D91698AA90EDB1BAD4D3A80AF /* Date+Manipulations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Manipulations.swift"; path = "DateToolsSwift/DateTools/Date+Manipulations.swift"; sourceTree = "<group>"; };
+		A6F03BC2C37081D03C4049760EA1D317 /* NCMBRelationOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRelationOperation.m; path = NCMB/Operations/NCMBRelationOperation.m; sourceTree = "<group>"; };
+		A92EFB79E7386ABEEA43C05621F0E2AD /* DropDownMenuKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDownMenuKit-dummy.m"; sourceTree = "<group>"; };
+		B02658290D96ADC928C882BD83B89A0C /* WRCalendarView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WRCalendarView-dummy.m"; sourceTree = "<group>"; };
+		B090517D088773137B399C1E9B911634 /* TimeChunk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeChunk.swift; path = DateToolsSwift/DateTools/TimeChunk.swift; sourceTree = "<group>"; };
+		B0951F822B5B2820CE48598CCF6F69BF /* NCMB_umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMB_umbrella.h; path = NCMB/NCMB_umbrella.h; sourceTree = "<group>"; };
+		B142BB82D66AC96AB345E8FD9F204853 /* NCMB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NCMB.xcconfig; sourceTree = "<group>"; };
+		B376C9F37ECE0B311D033E8F4A64E04C /* FAKFontAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFontAwesome.h; path = FontAwesomeKit/FAKFontAwesome.h; sourceTree = "<group>"; };
+		B4D497773531EC1A0D8EE9480E650EC9 /* foundation-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "foundation-icons.ttf"; path = "FontAwesomeKit/foundation-icons.ttf"; sourceTree = "<group>"; };
+		BAEF7A0BD35A4A8DC03B8075A1EB228C /* DateToolsSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DateToolsSwift-prefix.pch"; sourceTree = "<group>"; };
+		BB37A62930AFF3479F8B2FAA0824CC33 /* NCMBQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBQuery.h; path = NCMB/NCMBQuery.h; sourceTree = "<group>"; };
+		BDE122A555885432D4689D828FF424FA /* NCMBACL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBACL.h; path = NCMB/NCMBACL.h; sourceTree = "<group>"; };
+		BE426210FF083C8D94F1C4158E04366E /* NCMBAnonymousUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAnonymousUtils.h; path = NCMB/NCMBAnonymousUtils.h; sourceTree = "<group>"; };
+		BEAE7AFE8B431061CFC4708E9BC4470C /* Date+Comparators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Comparators.swift"; path = "DateToolsSwift/DateTools/Date+Comparators.swift"; sourceTree = "<group>"; };
+		BEC2A17218A28DFFE0F8FE30891ADAB0 /* NSDataBase64Encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSDataBase64Encode.h; path = NCMB/NSDataBase64Encode/NSDataBase64Encode.h; sourceTree = "<group>"; };
+		BF7D85341D9E12D97AB07B037616FFBC /* FAKZocial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKZocial.m; path = FontAwesomeKit/FAKZocial.m; sourceTree = "<group>"; };
+		C1A6503070146B9BF985EDC0FA5B4B0D /* WRCalendarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WRCalendarView.framework; path = WRCalendarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C29D721A89F53113CCD822763062380D /* Pods-WRCalendarViewSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WRCalendarViewSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		C3AB48EC39B247DB039F6F2216E3FCB1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		C5142DFA3FBE3FC7C6CFCF2389443716 /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = WRCalendarView/Helpers/StringExtension.swift; sourceTree = "<group>"; };
+		C6252D0D8F0F92BB67AF027C8B35CE34 /* SubClassHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SubClassHandler.h; path = NCMB/SubClassHandler/SubClassHandler.h; sourceTree = "<group>"; };
+		C6B60C82D7EC7D8B03A079AB198E00DC /* SubClassHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SubClassHandler.m; path = NCMB/SubClassHandler/SubClassHandler.m; sourceTree = "<group>"; };
+		C6DEAE49FC0948FA50C92B8C84FF1F7D /* Pods-WRCalendarViewSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WRCalendarViewSample.release.xcconfig"; sourceTree = "<group>"; };
+		C8A399A91010F5EC7432AACE90599B1E /* WREventCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WREventCell.swift; path = WRCalendarView/Views/WREventCell.swift; sourceTree = "<group>"; };
+		C8F70AFB22AFF262942017C27082E2FB /* FAKZocial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKZocial.h; path = FontAwesomeKit/FAKZocial.h; sourceTree = "<group>"; };
+		CA451E566C8CA155BB7F26864F4644FA /* WRWeekViewFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WRWeekViewFlowLayout.swift; path = WRCalendarView/FlowLayout/WRWeekViewFlowLayout.swift; sourceTree = "<group>"; };
+		CA7B66691A0ACC5BCAA65D2BE371C2ED /* NCMBRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRequest.m; path = NCMB/NCMBRequest/NCMBRequest.m; sourceTree = "<group>"; };
+		CA81949F1CE2AEE3BD947255B73E9CF2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD22FDE2EACB058404EFC600611D7B93 /* FontAwesomeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesomeKit-dummy.m"; sourceTree = "<group>"; };
+		CD418057111A85BDBD3CF947C7AE253F /* WRRowHeaderBackground.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WRRowHeaderBackground.swift; path = WRCalendarView/Views/WRRowHeaderBackground.swift; sourceTree = "<group>"; };
+		CF9F12AA26F9184CEE172D38B4E43E7B /* NCMBInstallation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBInstallation.m; path = NCMB/NCMBInstallation.m; sourceTree = "<group>"; };
+		D00991D6D6DEBD0F675DA0E43A3D6282 /* FAKOcticons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKOcticons.h; path = FontAwesomeKit/FAKOcticons.h; sourceTree = "<group>"; };
+		D06E9EAFFB540AD778AAA877256F938E /* Date+Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Bundle.swift"; path = "DateToolsSwift/DateTools/Date+Bundle.swift"; sourceTree = "<group>"; };
+		D070CFA93BE895375C6D2397E95CF893 /* WRRowHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WRRowHeader.swift; path = WRCalendarView/Views/WRRowHeader.swift; sourceTree = "<group>"; };
+		D26B5EE474DBE220C128C18259A4BD92 /* FAKMaterialIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKMaterialIcons.h; path = FontAwesomeKit/FAKMaterialIcons.h; sourceTree = "<group>"; };
+		D3C804C3E1DD3B8AEAEE47FF14CCEB1A /* DropDownMenuKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDownMenuKit.xcconfig; sourceTree = "<group>"; };
+		D78FE7FDC6A55732DBD39214DDD424B8 /* DropDownTitleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DropDownTitleView.swift; sourceTree = "<group>"; };
+		D7A0382DC4792CD68B72432496039796 /* Pods-WRCalendarViewSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WRCalendarViewSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D7CD0435EB749ED28B9271007EE10D8D /* ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = ionicons.ttf; path = FontAwesomeKit/ionicons.ttf; sourceTree = "<group>"; };
+		D94F93E8CED85F914E7CF754A8BFFBB6 /* NCMBIncrementOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBIncrementOperation.h; path = NCMB/Operations/NCMBIncrementOperation.h; sourceTree = "<group>"; };
+		DB51F69771B280A1C0556FA9481860FF /* FontAwesomeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FontAwesomeKit.modulemap; sourceTree = "<group>"; };
+		DBAC8907EC508C0EBF954004C44A93B9 /* NCMBACL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBACL.m; path = NCMB/NCMBACL.m; sourceTree = "<group>"; };
+		DC17F4FD92F36A8F8BF80B78230B972F /* NSObjectExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSObjectExtension.swift; path = WRCalendarView/Helpers/NSObjectExtension.swift; sourceTree = "<group>"; };
+		DCBA61C7109AB8F395338E114E6FF950 /* NCMBRelationOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRelationOperation.h; path = NCMB/Operations/NCMBRelationOperation.h; sourceTree = "<group>"; };
+		DCE3920FA3E719394C32F7265291D47B /* NCMB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMB.h; path = NCMB/NCMB.h; sourceTree = "<group>"; };
+		DDC33C343ED076F5444985D381B4C428 /* FAKFoundationIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFoundationIcons.h; path = FontAwesomeKit/FAKFoundationIcons.h; sourceTree = "<group>"; };
+		DED45946992460B7E112ECA08A503CCF /* NCMBFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBFile.m; path = NCMB/NCMBFile.m; sourceTree = "<group>"; };
+		DED7C2C5F321B2158F70D6BCC6524609 /* NCMBRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRole.h; path = NCMB/NCMBRole.h; sourceTree = "<group>"; };
+		E27CB5D33F068D07E257FBB5BC49D1A5 /* DropDownMenuCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DropDownMenuCell.swift; sourceTree = "<group>"; };
+		E4594DF7A99926207ED256C38989CC72 /* WREventCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = WREventCell.xib; path = WRCalendarView/Views/WREventCell.xib; sourceTree = "<group>"; };
+		E4A4A1AFC3712F65085ED1F3ADFE156D /* DropDownMenuKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DropDownMenuKit.modulemap; sourceTree = "<group>"; };
+		E4CFFF96F47A419F2964CA35BA30ADB1 /* Pods-WRCalendarViewSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WRCalendarViewSample-frameworks.sh"; sourceTree = "<group>"; };
+		E4F74914D6B0D20B2CB950B4C094C2F4 /* NCMBAddOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAddOperation.m; path = NCMB/Operations/NCMBAddOperation.m; sourceTree = "<group>"; };
+		E6BD8B9780C7A2BA0D3DAF126BC1B1E1 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = WRCalendarView/Helpers/Constants.swift; sourceTree = "<group>"; };
+		E8344EE50506B9FE62A025A5B6175632 /* FAKFontAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFontAwesome.m; path = FontAwesomeKit/FAKFontAwesome.m; sourceTree = "<group>"; };
+		E8788C622F44DCD11FB18EFACB7C452F /* NCMBAddOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAddOperation.h; path = NCMB/Operations/NCMBAddOperation.h; sourceTree = "<group>"; };
+		E94426F7F144630E4D000E7FC14E8A9C /* NCMBRelation+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBRelation+Private.h"; path = "NCMB/PrivateHeaders/NCMBRelation+Private.h"; sourceTree = "<group>"; };
+		EA68D9DD6604EE58C67D0DAABE06D6F3 /* WREvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WREvent.swift; path = WRCalendarView/Events/WREvent.swift; sourceTree = "<group>"; };
+		EB0C2ECF7D6530FE9756406552BF1D68 /* NCMBUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBUser.h; path = NCMB/NCMBUser.h; sourceTree = "<group>"; };
+		EDCDDD98BD7E702E6D112290557FBFB1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F01271B4C897D54BA638B2BC2C9460CA /* WRCalendarView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WRCalendarView-umbrella.h"; sourceTree = "<group>"; };
+		F0499BCB02BB0D6C463933097A0EC72C /* NCMBObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBObject.h; path = NCMB/NCMBObject.h; sourceTree = "<group>"; };
+		F573B330A3D5FE41BDD31036B4412F00 /* NCMB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NCMB.modulemap; sourceTree = "<group>"; };
+		F61DCBB6AE43D345C60CEC4C025D9883 /* FAKIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIcon.h; path = FontAwesomeKit/FAKIcon.h; sourceTree = "<group>"; };
+		F88C4017497EEAF9046D93B6DDA086BB /* WRRowHeader.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = WRRowHeader.xib; path = WRCalendarView/Views/WRRowHeader.xib; sourceTree = "<group>"; };
+		F913A00AC61DB82723EAF1E2FCCA09EE /* Enums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enums.swift; path = DateToolsSwift/DateTools/Enums.swift; sourceTree = "<group>"; };
+		FE904977640A705840FFA5375DF7ECA2 /* DateToolsSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DateToolsSwift.xcconfig; sourceTree = "<group>"; };
+		FE99CE26D035E30EC8ED20EA01D7B2B6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		FEA29CC403B08E083237AB945AA9FFEA /* Material-Design-Iconic-Font.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Material-Design-Iconic-Font.ttf"; path = "FontAwesomeKit/Material-Design-Iconic-Font.ttf"; sourceTree = "<group>"; };
+		FF162BD296C9071F9CAFE87B2404B047 /* Date+TimeAgo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+TimeAgo.swift"; path = "DateToolsSwift/DateTools/Date+TimeAgo.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		407CCC4922FE4F6D386D5337B2D9A190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64042FB45D176E32420CD10239960966 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E7CB1469B4DB358AD46F9E74D7D041C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2518B47E0F11D166F5207B96C1EFB53B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8434B5E477F39AE0EF804FA959D5529D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8501462497975B6EFFE9E8FF266B725C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2166C0EC39F6BB2B691B380B539FE8AD /* CoreText.framework in Frameworks */,
+				B98B26D76E50DE44887EDA3096028C46 /* Foundation.framework in Frameworks */,
+				FAA3DAE967FF67C21B6F3F730A9EEB59 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43632499E2D15FCEBA0F8190BE5312E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CBB9E57D487A9393CDBB5627BEF362 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC5E1638FDCC346405589E10398A312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA95B114A678AD527E06F972D7B41004 /* AudioToolbox.framework in Frameworks */,
+				A52FA1C4B627FD0C18F98F9A8C9C5C5C /* Foundation.framework in Frameworks */,
+				98BFEE168FB76FD66D3076A7604DC550 /* MobileCoreServices.framework in Frameworks */,
+				7958920401E7289C57B9EA6F9F3CD4F4 /* SystemConfiguration.framework in Frameworks */,
+				D9084AD86F485C102AFFF36F7275F873 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7EE4C8A9DF9AAFDCA59B9E1E4DA9C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F415AA947E35460F8C999242561559 /* DateToolsSwift.framework in Frameworks */,
+				60D91C1B735EE9E134F27E56E8567773 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00607D44B3BC169079863A4426C8A6D5 /* Zocial */ = {
+			isa = PBXGroup;
+			children = (
+				C8F70AFB22AFF262942017C27082E2FB /* FAKZocial.h */,
+				BF7D85341D9E12D97AB07B037616FFBC /* FAKZocial.m */,
+				BDE2683B307EC1167C030BE9D775DE4E /* Resources */,
+			);
+			name = Zocial;
+			sourceTree = "<group>";
+		};
+		0237C7D28E1AA1E9247A9E5608BFE799 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25087D7E504DA88977044ED277A978EE /* Info.plist */,
+				F573B330A3D5FE41BDD31036B4412F00 /* NCMB.modulemap */,
+				B142BB82D66AC96AB345E8FD9F204853 /* NCMB.xcconfig */,
+				8390179C45A0932B3A0CB6114CFCDE05 /* NCMB-dummy.m */,
+				7F33EBA969046B0204730559DEAC4467 /* NCMB-prefix.pch */,
+				5695BF462C4CD62F824DA98235031C9B /* NCMB-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NCMB";
+			sourceTree = "<group>";
+		};
+		04F5EC1A1132FA9231EEF54039EACB50 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				482DB26692BF1596A2B01C51AB0C21DA /* octicons.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		135815F51D8504C11D3CB007B0D97158 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26767F81CD54574B828F173697748117 /* Pods-WRCalendarViewSample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		169629CFBBB7BCC71FF3793775BDC61B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7CD0435EB749ED28B9271007EE10D8D /* ionicons.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1DE6490F2D2BC9438E773F0590AB548C /* Material */ = {
+			isa = PBXGroup;
+			children = (
+				D26B5EE474DBE220C128C18259A4BD92 /* FAKMaterialIcons.h */,
+				72ED00A1FC48FEE23A30A52DF399468F /* FAKMaterialIcons.m */,
+				6EE929813235A73BDFF04D6880B20B4A /* Resources */,
+			);
+			name = Material;
+			sourceTree = "<group>";
+		};
+		20FA1BC386E1F30265C090FD7140F887 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				160687AD9CED72DBF143D18F17276A04 /* FontAwesome.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		236E962DB64D289F35EA315B96BB2712 /* WRCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				E6BD8B9780C7A2BA0D3DAF126BC1B1E1 /* Constants.swift */,
+				DC17F4FD92F36A8F8BF80B78230B972F /* NSObjectExtension.swift */,
+				C5142DFA3FBE3FC7C6CFCF2389443716 /* StringExtension.swift */,
+				51D2A3ED6C42ECF5A3AFFBAFA5F37AC9 /* UIColorExtention.swift */,
+				75EE03EB0941EF242291A3599CFD6D1A /* WRColumnHeader.swift */,
+				1EEE0510CB231AD5B5A10C725FFA6281 /* WRColumnHeader.xib */,
+				2BED65C3A4A8847F0622EE5F3F942BE5 /* WRColumnHeaderBackground.swift */,
+				2941E19A1B834F980FB76147531B4465 /* WRCornerHeader.swift */,
+				1F69AAA3656B07AB76B0CE4F1378B8D0 /* WRCurrentTimeGridline.swift */,
+				4710DA5B460D856CD52195337B28A8A0 /* WRCurrentTimeIndicator.swift */,
+				2944DC959E91F4864FECE8A5EB06BE4A /* WRCurrentTimeIndicator.xib */,
+				EA68D9DD6604EE58C67D0DAABE06D6F3 /* WREvent.swift */,
+				C8A399A91010F5EC7432AACE90599B1E /* WREventCell.swift */,
+				E4594DF7A99926207ED256C38989CC72 /* WREventCell.xib */,
+				5CACB3E4D1E11D445F2BE7DC5DBE2C43 /* WRGridLine.swift */,
+				D070CFA93BE895375C6D2397E95CF893 /* WRRowHeader.swift */,
+				F88C4017497EEAF9046D93B6DDA086BB /* WRRowHeader.xib */,
+				CD418057111A85BDBD3CF947C7AE253F /* WRRowHeaderBackground.swift */,
+				38A6E3D52F73E51B0FE8C0C9CCFC6F8E /* WRTodayBackground.swift */,
+				3D017986EECC32FF576A59E98BBACB15 /* WRWeekView.swift */,
+				CA451E566C8CA155BB7F26864F4644FA /* WRWeekViewFlowLayout.swift */,
+				5C3B70C2B76643CE06997090B85B455D /* Resources */,
+				87973AC35DB093DF32E31FA7C367E6E3 /* Support Files */,
+			);
+			name = WRCalendarView;
+			path = WRCalendarView;
+			sourceTree = "<group>";
+		};
+		26767F81CD54574B828F173697748117 /* Pods-WRCalendarViewSample */ = {
+			isa = PBXGroup;
+			children = (
+				64485CB0864DB4AF51033FDDC0DB3B81 /* Info.plist */,
+				2A8D1287F8A95278B2DE5E945AFCB246 /* Pods-WRCalendarViewSample.modulemap */,
+				D7A0382DC4792CD68B72432496039796 /* Pods-WRCalendarViewSample-acknowledgements.markdown */,
+				C29D721A89F53113CCD822763062380D /* Pods-WRCalendarViewSample-acknowledgements.plist */,
+				0BA7307EE3920B6A1B35361B20E638B4 /* Pods-WRCalendarViewSample-dummy.m */,
+				E4CFFF96F47A419F2964CA35BA30ADB1 /* Pods-WRCalendarViewSample-frameworks.sh */,
+				1953CBEB1C46CE31A3D64A724FFE9818 /* Pods-WRCalendarViewSample-resources.sh */,
+				29457D48AF72E4BE59E9755193FDF985 /* Pods-WRCalendarViewSample-umbrella.h */,
+				248F2B076CC469D7739774C132CE296B /* Pods-WRCalendarViewSample.debug.xcconfig */,
+				C6DEAE49FC0948FA50C92B8C84FF1F7D /* Pods-WRCalendarViewSample.release.xcconfig */,
+			);
+			name = "Pods-WRCalendarViewSample";
+			path = "Target Support Files/Pods-WRCalendarViewSample";
+			sourceTree = "<group>";
+		};
+		26FCE52F89FA16482AA2D1840C3EBCEF /* DropDownMenuKit */ = {
+			isa = PBXGroup;
+			children = (
+				17EF1AD1AE6044C0D3C0A76CFECD18F0 /* DropDownMenu.h */,
+				15B3BB162328174BC462F50D5C0E4FF2 /* DropDownMenu.swift */,
+				E27CB5D33F068D07E257FBB5BC49D1A5 /* DropDownMenuCell.swift */,
+				D78FE7FDC6A55732DBD39214DDD424B8 /* DropDownTitleView.swift */,
+				E56FCA2C02E1D0BEC5D4C9DA0BB7F354 /* Resources */,
+				E2F7DA7618B449B7019A81B7A5D07D85 /* Support Files */,
+			);
+			name = DropDownMenuKit;
+			path = DropDownMenuKit;
+			sourceTree = "<group>";
+		};
+		53F40935FEE09EF98877C7230E036C90 /* DateToolsSwift */ = {
+			isa = PBXGroup;
+			children = (
+				0DED9EBE9819D578483E38C93E0DC98F /* Constants.swift */,
+				D06E9EAFFB540AD778AAA877256F938E /* Date+Bundle.swift */,
+				BEAE7AFE8B431061CFC4708E9BC4470C /* Date+Comparators.swift */,
+				9739770EADA66B0C99E1C92736541552 /* Date+Components.swift */,
+				1FF741873733A92D62B05E3767B5E398 /* Date+Format.swift */,
+				48A14037B19CF98BC681B1F020004927 /* Date+Inits.swift */,
+				A5DF280D91698AA90EDB1BAD4D3A80AF /* Date+Manipulations.swift */,
+				FF162BD296C9071F9CAFE87B2404B047 /* Date+TimeAgo.swift */,
+				F913A00AC61DB82723EAF1E2FCCA09EE /* Enums.swift */,
+				2049C0A7F9969379069A4D89421E28AD /* Integer+DateTools.swift */,
+				B090517D088773137B399C1E9B911634 /* TimeChunk.swift */,
+				0226FEDA77424AD4FC56DCFA6D9B901F /* TimePeriod.swift */,
+				245A62AC995471E382CDF0F2C61D9BA8 /* TimePeriodChain.swift */,
+				5BA863003AAF796E9AD1ADB8F725A3DA /* TimePeriodCollection.swift */,
+				870E0A728977F026C98F59FF230E2C38 /* TimePeriodGroup.swift */,
+				5EB16E326D66A292899F8B1B0274CB53 /* Resources */,
+				F234B9A9F690785842AE3BFB7AC81788 /* Support Files */,
+			);
+			name = DateToolsSwift;
+			path = DateToolsSwift;
+			sourceTree = "<group>";
+		};
+		5C3B70C2B76643CE06997090B85B455D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5EB16E326D66A292899F8B1B0274CB53 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95CF31D14362352404F32593087D1E62 /* DateTools.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6B7E0B60DC496E21C90E3F3771BD25F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53F40935FEE09EF98877C7230E036C90 /* DateToolsSwift */,
+				26FCE52F89FA16482AA2D1840C3EBCEF /* DropDownMenuKit */,
+				83662A91731E0A3158079DD4521E4610 /* FontAwesomeKit */,
+				C09408BE4ACC1C1376A1DB284C793A78 /* NCMB */,
+				236E962DB64D289F35EA315B96BB2712 /* WRCalendarView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6EE929813235A73BDFF04D6880B20B4A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FEA29CC403B08E083237AB945AA9FFEA /* Material-Design-Iconic-Font.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7D3B763E3EFF0707E48E6636C185640E /* FoundationIcons */ = {
+			isa = PBXGroup;
+			children = (
+				DDC33C343ED076F5444985D381B4C428 /* FAKFoundationIcons.h */,
+				96D88DFC65B028180D72236EE4751208 /* FAKFoundationIcons.m */,
+				9D6E607C48A690DAB1009B0BE5996DD8 /* Resources */,
+			);
+			name = FoundationIcons;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				DE0A2C086629146220670F2A01F0926C /* Frameworks */,
+				6B7E0B60DC496E21C90E3F3771BD25F0 /* Pods */,
+				DFD88BB85A78A56ECA656C9B27C3FF6C /* Products */,
+				135815F51D8504C11D3CB007B0D97158 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83662A91731E0A3158079DD4521E4610 /* FontAwesomeKit */ = {
+			isa = PBXGroup;
+			children = (
+				9E3DA6537D640B7DEB48C7B37FC5D831 /* FontAwesomeKit.h */,
+				F89FCC58D0992B962B5314A757789614 /* Core */,
+				E8A162646A94621BD56D5A668CEA62DA /* FontAwesome */,
+				7D3B763E3EFF0707E48E6636C185640E /* FoundationIcons */,
+				881BF69F300C4E5C47AB147460503A09 /* IonIcons */,
+				1DE6490F2D2BC9438E773F0590AB548C /* Material */,
+				B0FCC4D6EBD8E574CAB33474D6124025 /* Octicons */,
+				BC2752D4147B315AF3E68C325C565EEA /* Support Files */,
+				00607D44B3BC169079863A4426C8A6D5 /* Zocial */,
+			);
+			name = FontAwesomeKit;
+			path = FontAwesomeKit;
+			sourceTree = "<group>";
+		};
+		87973AC35DB093DF32E31FA7C367E6E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA81949F1CE2AEE3BD947255B73E9CF2 /* Info.plist */,
+				1E4E1EDE9589ECFBF1B32E623301CEF0 /* ResourceBundle-WRCalendarView-Info.plist */,
+				5E806747A42F62C095E0DE0E1EF7F693 /* WRCalendarView.modulemap */,
+				6862E87F935D101E1A5741A394DC4B5A /* WRCalendarView.xcconfig */,
+				B02658290D96ADC928C882BD83B89A0C /* WRCalendarView-dummy.m */,
+				9FCC8531C8D77306787AA7CDFD14B703 /* WRCalendarView-prefix.pch */,
+				F01271B4C897D54BA638B2BC2C9460CA /* WRCalendarView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WRCalendarView";
+			sourceTree = "<group>";
+		};
+		881BF69F300C4E5C47AB147460503A09 /* IonIcons */ = {
+			isa = PBXGroup;
+			children = (
+				73E4B05C9FAA95B0F7FD84B60A4A84C8 /* FAKIonIcons.h */,
+				7577787DEB13F6BFE58FCBDDEC350502 /* FAKIonIcons.m */,
+				169629CFBBB7BCC71FF3793775BDC61B /* Resources */,
+			);
+			name = IonIcons;
+			sourceTree = "<group>";
+		};
+		9D038E73C1705AB4F9B7C8FA0F313AF1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C3AB48EC39B247DB039F6F2216E3FCB1 /* AudioToolbox.framework */,
+				2F380A65EDA52C6816AA6A0FA6ED89F0 /* CoreText.framework */,
+				15B091EAF34B2A3879CFB7AF09E004F0 /* Foundation.framework */,
+				471303C6FF045001DFEFA0A3FCEFCCAA /* MobileCoreServices.framework */,
+				FE99CE26D035E30EC8ED20EA01D7B2B6 /* SystemConfiguration.framework */,
+				801D151CA26DE1DB30193FF71626AFFE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9D6E607C48A690DAB1009B0BE5996DD8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4D497773531EC1A0D8EE9480E650EC9 /* foundation-icons.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B0FCC4D6EBD8E574CAB33474D6124025 /* Octicons */ = {
+			isa = PBXGroup;
+			children = (
+				D00991D6D6DEBD0F675DA0E43A3D6282 /* FAKOcticons.h */,
+				435B4622D52F40CF5E30E5D6412EFB41 /* FAKOcticons.m */,
+				04F5EC1A1132FA9231EEF54039EACB50 /* Resources */,
+			);
+			name = Octicons;
+			sourceTree = "<group>";
+		};
+		BC2752D4147B315AF3E68C325C565EEA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB51F69771B280A1C0556FA9481860FF /* FontAwesomeKit.modulemap */,
+				7D3FC102D4F584B91965590E332F15F7 /* FontAwesomeKit.xcconfig */,
+				CD22FDE2EACB058404EFC600611D7B93 /* FontAwesomeKit-dummy.m */,
+				4983C122A914B8079E2947BF7A2F75AA /* FontAwesomeKit-prefix.pch */,
+				2FAD1DA83CBE813AB7FEFC03172FCB60 /* FontAwesomeKit-umbrella.h */,
+				91F482165D27138C4CAD5D5DCFBAD4D2 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FontAwesomeKit";
+			sourceTree = "<group>";
+		};
+		BDE2683B307EC1167C030BE9D775DE4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DA36637F22AE325FBE6D9EB78188FFE /* zocial-regular-webfont.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C09408BE4ACC1C1376A1DB284C793A78 /* NCMB */ = {
+			isa = PBXGroup;
+			children = (
+				DCE3920FA3E719394C32F7265291D47B /* NCMB.h */,
+				67F832F3E2552E9CB52C454AE7FCBD84 /* NCMB.m */,
+				B0951F822B5B2820CE48598CCF6F69BF /* NCMB_umbrella.h */,
+				BDE122A555885432D4689D828FF424FA /* NCMBACL.h */,
+				DBAC8907EC508C0EBF954004C44A93B9 /* NCMBACL.m */,
+				E8788C622F44DCD11FB18EFACB7C452F /* NCMBAddOperation.h */,
+				E4F74914D6B0D20B2CB950B4C094C2F4 /* NCMBAddOperation.m */,
+				50ABC19DE66D0FA5A9EA44C2F80A9D04 /* NCMBAddUniqueOperation.h */,
+				9972FD8AD4160A0D62FAC6FE45CB9C13 /* NCMBAddUniqueOperation.m */,
+				43F4A4D7B38F4B1EEB6AFB63DD2A4E7D /* NCMBAnalytics.h */,
+				1A01C1C44BE8F2ACA2B7B47BEE8E02DE /* NCMBAnalytics.m */,
+				BE426210FF083C8D94F1C4158E04366E /* NCMBAnonymousUtils.h */,
+				25FC0CB48774683E90F3A3B6A217BBB2 /* NCMBAnonymousUtils.m */,
+				217B07F91CE322943FA27BB944DD2B9F /* NCMBCloseImageView.h */,
+				78716FF49A3207BABF8892ED71FD9A19 /* NCMBCloseImageView.m */,
+				7834DE0A5522414C2B318894FECE70BA /* NCMBConstants.h */,
+				02D388D68DC62BF892B82175F921DBC2 /* NCMBDateFormat.h */,
+				84DFF2AC5A720A5E30831BD085BD58D7 /* NCMBDateFormat.m */,
+				474A33A1793CC870C04F58990715A3C4 /* NCMBDeleteOperation.h */,
+				8552D51FAEEA2A55FAD7906CDF963F6D /* NCMBDeleteOperation.m */,
+				74FB594F5DCBB3EC1971090B947CBBE8 /* NCMBError.h */,
+				6D083200FD2C5C5740D0775D44BCE062 /* NCMBError.m */,
+				341B493E865ABCAD75428D98357CF67B /* NCMBFile.h */,
+				DED45946992460B7E112ECA08A503CCF /* NCMBFile.m */,
+				79F2CD6B766A5952B08C277BC3DB669F /* NCMBGeoPoint.h */,
+				3E5A1DC60D97237D145165B9D22BDC7D /* NCMBGeoPoint.m */,
+				D94F93E8CED85F914E7CF754A8BFFBB6 /* NCMBIncrementOperation.h */,
+				660577B5BAA42D6F7EB75372B22A849B /* NCMBIncrementOperation.m */,
+				52FC4BD2B411B3940C0D7FD35B24CFB2 /* NCMBInstallation.h */,
+				CF9F12AA26F9184CEE172D38B4E43E7B /* NCMBInstallation.m */,
+				F0499BCB02BB0D6C463933097A0EC72C /* NCMBObject.h */,
+				6CE0C8ED03B227F4815FFABFA1F07D5B /* NCMBObject.m */,
+				1D7569C1968ADEEFDC5B4DA1D8719077 /* NCMBObject+Private.h */,
+				67023A8EE15F9530FE18620D7ADB8D6B /* NCMBObject+Subclass.h */,
+				48AB85D72F0819A0B2077D904556478C /* NCMBPush.h */,
+				7F12E52347AFAA019466DDD7AE0904E7 /* NCMBPush.m */,
+				BB37A62930AFF3479F8B2FAA0824CC33 /* NCMBQuery.h */,
+				38DD41578C112D9E32A9C167FFE4FE28 /* NCMBQuery.m */,
+				3FB2B3FA7FC022770B74A4F5C2D5084E /* NCMBQuery+Private.h */,
+				7C43B100031FAB2939DF657DA5522BC6 /* NCMBReachability.h */,
+				30597B0A12F3C0EA2563FA3820F73F32 /* NCMBReachability.m */,
+				4CAA2FEA079ECC4CB0B620A305C42973 /* NCMBRelation.h */,
+				55B35D28EE152ECFE4BBC6B23E400B63 /* NCMBRelation.m */,
+				E94426F7F144630E4D000E7FC14E8A9C /* NCMBRelation+Private.h */,
+				DCBA61C7109AB8F395338E114E6FF950 /* NCMBRelationOperation.h */,
+				A6F03BC2C37081D03C4049760EA1D317 /* NCMBRelationOperation.m */,
+				6D70620D6356468B5322628374332D45 /* NCMBRemoveOperation.h */,
+				7958DEA6897D78DD85EA92565047E8AA /* NCMBRemoveOperation.m */,
+				08CC77E452981C3E2D6C7BEDABDD6FC6 /* NCMBRequest.h */,
+				CA7B66691A0ACC5BCAA65D2BE371C2ED /* NCMBRequest.m */,
+				23B621C7F6135906A3E235A9CD5C2524 /* NCMBRichPushView.h */,
+				44C64A8054753385836B150C1A786974 /* NCMBRichPushView.m */,
+				DED7C2C5F321B2158F70D6BCC6524609 /* NCMBRole.h */,
+				9750FA12500BA7A0FFF496FD9C72C2EC /* NCMBRole.m */,
+				08237AE471D2891F414FBFC7C9AFB684 /* NCMBScript.h */,
+				626C84755B215B29798E7372F14232A5 /* NCMBScript.m */,
+				8C0D49481632136A26F9B337165EB80B /* NCMBScriptService.h */,
+				2E9EDDD8C3A8A37DE79A5F414240B430 /* NCMBScriptService.m */,
+				5BC4297BEC7AC48E120DDDEE4C06D266 /* NCMBSetOperation.h */,
+				24D7126DD40D3E8D3E8A73E2E82DF64C /* NCMBSetOperation.m */,
+				4346B4C4630CC898D3DA1CB4AF89BDEF /* NCMBSubclassing.h */,
+				3F1DCEF6AB4AC5D84BFB2CD3DAFF2574 /* NCMBURLSession.h */,
+				A07CA7F4574485BE1465F876F7D339BC /* NCMBURLSession.m */,
+				EB0C2ECF7D6530FE9756406552BF1D68 /* NCMBUser.h */,
+				82E35B020E55FA539C0F19EB41FD6A9E /* NCMBUser.m */,
+				9A3100395F3B0E6AEC1FF01B9E6C3B25 /* NCMBUser+Private.h */,
+				BEC2A17218A28DFFE0F8FE30891ADAB0 /* NSDataBase64Encode.h */,
+				1373DA284B0A854DFEC23F8EFFC1A13C /* NSDataBase64Encode.m */,
+				C6252D0D8F0F92BB67AF027C8B35CE34 /* SubClassHandler.h */,
+				C6B60C82D7EC7D8B03A079AB198E00DC /* SubClassHandler.m */,
+				0237C7D28E1AA1E9247A9E5608BFE799 /* Support Files */,
+			);
+			name = NCMB;
+			path = NCMB;
+			sourceTree = "<group>";
+		};
+		DE0A2C086629146220670F2A01F0926C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6967C19D82C7FBAD63F769817D3900BF /* DateToolsSwift.framework */,
+				9D038E73C1705AB4F9B7C8FA0F313AF1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFD88BB85A78A56ECA656C9B27C3FF6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34337BF9EC9088D54B005844FB68AA23 /* DateToolsSwift.framework */,
+				94D9F33709AB5B084DEA51BD5A29318F /* DropDownMenuKit.framework */,
+				039A48BD11FDEA14A91B76C22CE01A1E /* FontAwesomeKit.framework */,
+				10E4F551B2D62AF790418880DCF15FF3 /* NCMB.framework */,
+				3A0A5FA50C03D56C41C28D78D50526A6 /* Pods_WRCalendarViewSample.framework */,
+				6A9477D89A66C7D9382B8C991601D19C /* WRCalendarView.bundle */,
+				C1A6503070146B9BF985EDC0FA5B4B0D /* WRCalendarView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2F7DA7618B449B7019A81B7A5D07D85 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4A4A1AFC3712F65085ED1F3ADFE156D /* DropDownMenuKit.modulemap */,
+				D3C804C3E1DD3B8AEAEE47FF14CCEB1A /* DropDownMenuKit.xcconfig */,
+				A92EFB79E7386ABEEA43C05621F0E2AD /* DropDownMenuKit-dummy.m */,
+				57C6DD0525C7E645DB221138D5A35FD2 /* DropDownMenuKit-prefix.pch */,
+				03F62F312F1F2853B3454EB3A306FADD /* DropDownMenuKit-umbrella.h */,
+				5EFE032D7A8445B41F6DF48DC7270984 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropDownMenuKit";
+			sourceTree = "<group>";
+		};
+		E56FCA2C02E1D0BEC5D4C9DA0BB7F354 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				039BDFA81C8A6E90199D1DA7E2077DE3 /* DropDownMenuKit.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E8A162646A94621BD56D5A668CEA62DA /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				B376C9F37ECE0B311D033E8F4A64E04C /* FAKFontAwesome.h */,
+				E8344EE50506B9FE62A025A5B6175632 /* FAKFontAwesome.m */,
+				20FA1BC386E1F30265C090FD7140F887 /* Resources */,
+			);
+			name = FontAwesome;
+			sourceTree = "<group>";
+		};
+		F234B9A9F690785842AE3BFB7AC81788 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22CB6CAF1DCBF11841FECCEFADC94469 /* DateToolsSwift.modulemap */,
+				FE904977640A705840FFA5375DF7ECA2 /* DateToolsSwift.xcconfig */,
+				1D4F64657406D17FF8528E8B1DBE9103 /* DateToolsSwift-dummy.m */,
+				BAEF7A0BD35A4A8DC03B8075A1EB228C /* DateToolsSwift-prefix.pch */,
+				A3721E6CC63AD0179350F4BF7882C46E /* DateToolsSwift-umbrella.h */,
+				EDCDDD98BD7E702E6D112290557FBFB1 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DateToolsSwift";
+			sourceTree = "<group>";
+		};
+		F89FCC58D0992B962B5314A757789614 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F61DCBB6AE43D345C60CEC4C025D9883 /* FAKIcon.h */,
+				A1CB3D29947BEF725B98706AF5E730DA /* FAKIcon.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B24469DA060E445C2175588E9E4900E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC39A33E21B7A8820E4B2FE48723FB5 /* DateToolsSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2126F871E7E78346832906BCE40F82F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				477158E1EDBB1E8482F4F8E13DBDCF72 /* NCMB-umbrella.h in Headers */,
+				B8F613743A15EF8CC206DC20D96BE90E /* NCMB.h in Headers */,
+				D388A0F9B42B452E9C3608AEF73379D7 /* NCMB_umbrella.h in Headers */,
+				46C79256045B440DCD399B8A454FEA73 /* NCMBACL.h in Headers */,
+				BA3E3A52D273C9C4118A7F066E3955E8 /* NCMBAddOperation.h in Headers */,
+				6ED11884F22ED63874E7303A1BA96F0B /* NCMBAddUniqueOperation.h in Headers */,
+				DB67CBBD76DD779B15EE65AD2C972AAB /* NCMBAnalytics.h in Headers */,
+				D0AFFD17203C216F7FE5A3B7C0F36A51 /* NCMBAnonymousUtils.h in Headers */,
+				E9AD7EE2AD3C96C08F6F0040DDC767FA /* NCMBCloseImageView.h in Headers */,
+				96F8DB29728F1F5E2BB3F9B1B52C7140 /* NCMBConstants.h in Headers */,
+				D2D1BEDBC632B48D5F9FE99BDAB05022 /* NCMBDateFormat.h in Headers */,
+				6D74D6AE5914578CCC0A8DC4994FFE68 /* NCMBDeleteOperation.h in Headers */,
+				67330FB7DE571AB7B7A56F084F7C5EAC /* NCMBError.h in Headers */,
+				87C947CF3B3F514D133B19A1411E07E7 /* NCMBFile.h in Headers */,
+				0960F8356D44DFDFC0A091D8C928264D /* NCMBGeoPoint.h in Headers */,
+				558D7E301E80546D923F4CBF27C1C444 /* NCMBIncrementOperation.h in Headers */,
+				9E26F2E8DB237BD1F39D4D55CCC78599 /* NCMBInstallation.h in Headers */,
+				F5CBD1B3482A17D151209E504C3222EB /* NCMBObject+Private.h in Headers */,
+				0CC1A0D5DCCABA65D7A7DD3301B25253 /* NCMBObject+Subclass.h in Headers */,
+				48C1546EE63E0700B5F3EFCEBFD4C12A /* NCMBObject.h in Headers */,
+				A3AE12C8E86BD923BBD4587F655FC0BA /* NCMBPush.h in Headers */,
+				38A9A1343CFF40100983CFADC724F304 /* NCMBQuery+Private.h in Headers */,
+				2859B97332840C5C469E8E36B8701578 /* NCMBQuery.h in Headers */,
+				01E6F89D906C26E12FFB26B3C84122CD /* NCMBReachability.h in Headers */,
+				0F41FD3C9349ED3CFAC454FC009ADB13 /* NCMBRelation+Private.h in Headers */,
+				F2E3F4563E3F63A00B3C56AD3CE52661 /* NCMBRelation.h in Headers */,
+				7D23E46ED69E72257A3CBBBF822C83DB /* NCMBRelationOperation.h in Headers */,
+				1D91DEE411B797AA529F7947AA83709C /* NCMBRemoveOperation.h in Headers */,
+				73C681C37B82BD65FEA0E4E7353369C7 /* NCMBRequest.h in Headers */,
+				C68BC568ECC6AF7BFE42C53C0FA758F0 /* NCMBRichPushView.h in Headers */,
+				0AD21DC1786FB48A569ABC3E00832D10 /* NCMBRole.h in Headers */,
+				B9970DE19ABA09FFCDB5BE59D0BDE2F4 /* NCMBScript.h in Headers */,
+				A1D008A25471566FFA4251DACBF0146A /* NCMBScriptService.h in Headers */,
+				568E15627786D3F071042C6229CBA483 /* NCMBSetOperation.h in Headers */,
+				CF4DCA1132594DE49BE1499E971DE9E6 /* NCMBSubclassing.h in Headers */,
+				EEA0822E3167202EDF608DE6F404AE95 /* NCMBURLSession.h in Headers */,
+				3376B458232ECFCED5002B98ECD083E7 /* NCMBUser+Private.h in Headers */,
+				993F399B0D5211CD8B4E46B0568AFD6D /* NCMBUser.h in Headers */,
+				7F1D460E3549B997C77C233442ACBF79 /* NSDataBase64Encode.h in Headers */,
+				FE258945D8EC4D7487139CBDCA6E327F /* SubClassHandler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF933365F7C3E1F06DEC61034BEA127 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5093F84F27DF70B22CA692D3485AF2DB /* FAKFontAwesome.h in Headers */,
+				70644D2FAACDCB954D268086F220F534 /* FAKFoundationIcons.h in Headers */,
+				3964A2B00BB8619003961BD7D3BD1AF1 /* FAKIcon.h in Headers */,
+				D26832C96E013704F116A04D12D9B10D /* FAKIonIcons.h in Headers */,
+				8267189738A27E9FB0B3B61F0B2C84CA /* FAKMaterialIcons.h in Headers */,
+				1872CD2DA576F188DAFBE6CCA3EC4DCF /* FAKOcticons.h in Headers */,
+				332E15E9E986025C0150030E720D976A /* FAKZocial.h in Headers */,
+				99D62A3C6928E8C7BD61E2C98E5A360F /* FontAwesomeKit-umbrella.h in Headers */,
+				9BF8930E69FAFBCFCA70563E4775913F /* FontAwesomeKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94FDFF6423AF7B22D7638969E490963 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3606C90648061DCE5530973C2AC33C0D /* WRCalendarView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D63C096E16C71BBBFE3D527A21922A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDE6E55DA1C05EF35B015CB8CCCD2FA /* DropDownMenu.h in Headers */,
+				1D04A68258D5797F1D610B49188B809D /* DropDownMenuKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD3F7159F8D7FB518A7A8E4B591F15A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1EF16FA3F663B3C744CC36280FA56E /* Pods-WRCalendarViewSample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02F54742878E13A706A442AE8850687F /* Pods-WRCalendarViewSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB08B216C7DEFF998682AA0542C3C5E6 /* Build configuration list for PBXNativeTarget "Pods-WRCalendarViewSample" */;
+			buildPhases = (
+				75FE65A1E2507FD0995BEBAC975A7602 /* Sources */,
+				407CCC4922FE4F6D386D5337B2D9A190 /* Frameworks */,
+				FDD3F7159F8D7FB518A7A8E4B591F15A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A1935BC8CAE9803596D5F246B7D87C0 /* PBXTargetDependency */,
+				4288DC0B21740FFDFA2A27BD7C3A18F7 /* PBXTargetDependency */,
+				84C4FC5FED5F3022A9F76EF25CE42560 /* PBXTargetDependency */,
+				FDB76296FAB9CE6E173139F1B05B157C /* PBXTargetDependency */,
+				CB9BAD8EFD1E1C783F37E0FACAE14154 /* PBXTargetDependency */,
+			);
+			name = "Pods-WRCalendarViewSample";
+			productName = "Pods-WRCalendarViewSample";
+			productReference = 3A0A5FA50C03D56C41C28D78D50526A6 /* Pods_WRCalendarViewSample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2B4D1062592D6CA47806B79F65E795E2 /* WRCalendarView-WRCalendarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B61AC6F6D008632C98B9969AC137E44 /* Build configuration list for PBXNativeTarget "WRCalendarView-WRCalendarView" */;
+			buildPhases = (
+				2F80FAABE0668C7B8B68EEA732AAA07E /* Sources */,
+				8434B5E477F39AE0EF804FA959D5529D /* Frameworks */,
+				D1AB0A0B36ABABF93722FD1791B0F29B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WRCalendarView-WRCalendarView";
+			productName = "WRCalendarView-WRCalendarView";
+			productReference = 6A9477D89A66C7D9382B8C991601D19C /* WRCalendarView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6FAACA1020A0109BC651F7DD4E1C82F0 /* WRCalendarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72365FE04BD69BCC56D8D9231CFA1943 /* Build configuration list for PBXNativeTarget "WRCalendarView" */;
+			buildPhases = (
+				700DB1E06D9FBC19D358BAE39DC3D811 /* Sources */,
+				ED7EE4C8A9DF9AAFDCA59B9E1E4DA9C4 /* Frameworks */,
+				F4934DE5FF4F8B036D9F94C9542073F8 /* Resources */,
+				A94FDFF6423AF7B22D7638969E490963 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49AAC1004A770A63FD0B57907690E809 /* PBXTargetDependency */,
+				DC2F5BCA2070291C0CCC57E6FBD82273 /* PBXTargetDependency */,
+			);
+			name = WRCalendarView;
+			productName = WRCalendarView;
+			productReference = C1A6503070146B9BF985EDC0FA5B4B0D /* WRCalendarView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		70150FD598FAA13FDC9795CCE8F76926 /* NCMB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27915B51AE70BE7108C1D020D334E562 /* Build configuration list for PBXNativeTarget "NCMB" */;
+			buildPhases = (
+				EFC706FB49980F589801F5A5389F7D11 /* Sources */,
+				CCC5E1638FDCC346405589E10398A312 /* Frameworks */,
+				2126F871E7E78346832906BCE40F82F9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NCMB;
+			productName = NCMB;
+			productReference = 10E4F551B2D62AF790418880DCF15FF3 /* NCMB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A8E1DFAA9703A5C068D915A4C272EA21 /* FontAwesomeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EF0251B435B1FD8A5D405A1E79A639 /* Build configuration list for PBXNativeTarget "FontAwesomeKit" */;
+			buildPhases = (
+				1C11690BF49CDCBB7017548784E319D7 /* Sources */,
+				8501462497975B6EFFE9E8FF266B725C /* Frameworks */,
+				8FF933365F7C3E1F06DEC61034BEA127 /* Headers */,
+				F22AB6CB1A0587A4E4A25F8446D0984F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontAwesomeKit;
+			productName = FontAwesomeKit;
+			productReference = 039A48BD11FDEA14A91B76C22CE01A1E /* FontAwesomeKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3B0D4ADAAB95D2754E11D3C6B547D09 /* DropDownMenuKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C08AF28F9130F3FFF03EE5F64934672D /* Build configuration list for PBXNativeTarget "DropDownMenuKit" */;
+			buildPhases = (
+				AD6D99E133B994E4940DA731985EF2B6 /* Sources */,
+				A43632499E2D15FCEBA0F8190BE5312E /* Frameworks */,
+				E9D63C096E16C71BBBFE3D527A21922A /* Headers */,
+				E1134CD0BB851A3470027449EB2A62E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropDownMenuKit;
+			productName = DropDownMenuKit;
+			productReference = 94D9F33709AB5B084DEA51BD5A29318F /* DropDownMenuKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E89CFD99B895BCC6E8EDC2F95A03500C /* DateToolsSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E895CDDD9BD03948FD60B879EF8E23F5 /* Build configuration list for PBXNativeTarget "DateToolsSwift" */;
+			buildPhases = (
+				CC0412E536356508AEFA17702BF187E8 /* Sources */,
+				4E7CB1469B4DB358AD46F9E74D7D041C /* Frameworks */,
+				18AFA8BB5E5AE0C4F937C255362A0DD5 /* Resources */,
+				0B24469DA060E445C2175588E9E4900E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateToolsSwift;
+			productName = DateToolsSwift;
+			productReference = 34337BF9EC9088D54B005844FB68AA23 /* DateToolsSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DFD88BB85A78A56ECA656C9B27C3FF6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E89CFD99B895BCC6E8EDC2F95A03500C /* DateToolsSwift */,
+				C3B0D4ADAAB95D2754E11D3C6B547D09 /* DropDownMenuKit */,
+				A8E1DFAA9703A5C068D915A4C272EA21 /* FontAwesomeKit */,
+				70150FD598FAA13FDC9795CCE8F76926 /* NCMB */,
+				02F54742878E13A706A442AE8850687F /* Pods-WRCalendarViewSample */,
+				6FAACA1020A0109BC651F7DD4E1C82F0 /* WRCalendarView */,
+				2B4D1062592D6CA47806B79F65E795E2 /* WRCalendarView-WRCalendarView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18AFA8BB5E5AE0C4F937C255362A0DD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0BA12E6FF13BCD3D8129522B3BC6ACF /* DateTools.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1AB0A0B36ABABF93722FD1791B0F29B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE85BAA4F1FC658C1983C11A3F44E3E /* WRColumnHeader.xib in Resources */,
+				B3AF6DF1E8C988A145AB688DC2831DF4 /* WRCurrentTimeIndicator.xib in Resources */,
+				B5679B5D696C1D6D95FB8798606E5844 /* WREventCell.xib in Resources */,
+				B471302A64458767EDFEEE22CE37CC28 /* WRRowHeader.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1134CD0BB851A3470027449EB2A62E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390BC1C91BD0E0123D01BE7406336990 /* DropDownMenuKit.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22AB6CB1A0587A4E4A25F8446D0984F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61FA9EF01CB62B6F8F33C42E50CAF536 /* FontAwesome.otf in Resources */,
+				1769170427A6B5C9688007764866EDDA /* foundation-icons.ttf in Resources */,
+				A6D1C9304CF49244EB5D99A69971A8EE /* ionicons.ttf in Resources */,
+				FDFB10982DFB0AE07FB9571456B05CC7 /* Material-Design-Iconic-Font.ttf in Resources */,
+				0281A099B6DF240CD72EE130618B1B0F /* octicons.ttf in Resources */,
+				6A72C8E44A0E2774C76D073F982E117F /* zocial-regular-webfont.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4934DE5FF4F8B036D9F94C9542073F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA3159317D068DBD10C1208D9CC6E9C /* WRCalendarView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C11690BF49CDCBB7017548784E319D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113902E55762062A2D48B56D8DAA0532 /* FAKFontAwesome.m in Sources */,
+				4B7E574AEF9BAB8E643CCBA149E8A85F /* FAKFoundationIcons.m in Sources */,
+				37DA891DDA5E91349A6E7CEF0465CC51 /* FAKIcon.m in Sources */,
+				6B3C2778C40F244D98903E993A211EB5 /* FAKIonIcons.m in Sources */,
+				BB377AC3B7923B0182478FB34EAAC42D /* FAKMaterialIcons.m in Sources */,
+				5832280486E1376CBD13F70A8C6F02C6 /* FAKOcticons.m in Sources */,
+				D327632C06E3B012E8956FFC6A4219EB /* FAKZocial.m in Sources */,
+				C7DA2447575E683C18E8A452A886B85C /* FontAwesomeKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F80FAABE0668C7B8B68EEA732AAA07E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700DB1E06D9FBC19D358BAE39DC3D811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB4F8CB9903C229528E2141BD54B9D8 /* Constants.swift in Sources */,
+				2A9D203EC34C999A1BF3EE52B29C8DCB /* NSObjectExtension.swift in Sources */,
+				96B8F15B724A7636DAEF1C2C0620A428 /* StringExtension.swift in Sources */,
+				7579AE9BF5A43BF7E2E6BF78354BA438 /* UIColorExtention.swift in Sources */,
+				2A4C4A91CD681D9E5D379A340D300DD4 /* WRCalendarView-dummy.m in Sources */,
+				20F4972599C2A1A53AFA4338B9B906A5 /* WRColumnHeader.swift in Sources */,
+				D714A77D898EB9A59A3FA1832FBADC22 /* WRColumnHeader.xib in Sources */,
+				3DB6D5784A0AED26389CAA7802B08CD6 /* WRColumnHeaderBackground.swift in Sources */,
+				7A94BB5B8DA938A5F631DEF9DCAA7F28 /* WRCornerHeader.swift in Sources */,
+				7E6665FDD278E4F4D7F221BCA58017C5 /* WRCurrentTimeGridline.swift in Sources */,
+				5C52FA25D306B3E467650BF6BD5C35AE /* WRCurrentTimeIndicator.swift in Sources */,
+				38A2503266D18932E6F9DE8B56572B67 /* WRCurrentTimeIndicator.xib in Sources */,
+				2D6B876A83643A6DBF637A0155DA4391 /* WREvent.swift in Sources */,
+				36AE792BA3F2D519A1312EB80B034315 /* WREventCell.swift in Sources */,
+				2CFD39D2CB7AA21602532E5DA9FFF90F /* WREventCell.xib in Sources */,
+				CF5D8B4AF5B35B5BA1E01A9C368445C0 /* WRGridLine.swift in Sources */,
+				D87906DC79FE482BA02C13900CD5B463 /* WRRowHeader.swift in Sources */,
+				5344C3FE3750DCD46960D37EFB57F740 /* WRRowHeader.xib in Sources */,
+				C197E19190839F8B6E828499F1E367EF /* WRRowHeaderBackground.swift in Sources */,
+				25036ED0F9719A44E720BB85A49E0D5F /* WRTodayBackground.swift in Sources */,
+				29C7B0E9F161821305B22C1629427025 /* WRWeekView.swift in Sources */,
+				FA4FC81559299ECD8FAE330C25CBB5DC /* WRWeekViewFlowLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FE65A1E2507FD0995BEBAC975A7602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01110204A170CC7BD0FE6C2A1522932C /* Pods-WRCalendarViewSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6D99E133B994E4940DA731985EF2B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB25D5CEC99CF7616050F32E9431EF9 /* DropDownMenu.swift in Sources */,
+				C0E1F8C7D7A6577FC7A89B61E29C98CC /* DropDownMenuCell.swift in Sources */,
+				CA9DA9B7D293B98B793E3EEDBC2F94C8 /* DropDownMenuKit-dummy.m in Sources */,
+				341682B5442D1F8B83F0501D59DAE109 /* DropDownTitleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0412E536356508AEFA17702BF187E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF1957B63D91AF9BDDE95C5F9B56CE6 /* Constants.swift in Sources */,
+				99E3BEA8FC5191DC18AF7BF32A6E9086 /* Date+Bundle.swift in Sources */,
+				64C9F4903A26546EA0BB3B3A899CF915 /* Date+Comparators.swift in Sources */,
+				EF8A83F94EDB6C7C42F36FFF618D0526 /* Date+Components.swift in Sources */,
+				4E5E70335AC94377291526163247B72A /* Date+Format.swift in Sources */,
+				4AEA03365E6DFD3203288595698AB8CC /* Date+Inits.swift in Sources */,
+				5E516EEEB94BB900187FDFA3CC2E9FB4 /* Date+Manipulations.swift in Sources */,
+				6E7D1D65F26E071B668B6C38CE547C8E /* Date+TimeAgo.swift in Sources */,
+				563A18A4003D535DE5E75AA05B342ADB /* DateToolsSwift-dummy.m in Sources */,
+				AAB052ACD1C2F5CD61EA09A67BE5938F /* Enums.swift in Sources */,
+				EED12DA3B3BD6B6598A327DEF7D28817 /* Integer+DateTools.swift in Sources */,
+				DA770B19AF7C2D1F934DE2A5CD6C617C /* TimeChunk.swift in Sources */,
+				B0A382528DC015EFD81F39C35D669F8E /* TimePeriod.swift in Sources */,
+				6A0507497F0419B6E24146DB4DD3168A /* TimePeriodChain.swift in Sources */,
+				5C97B56B7994F1393537B4488ADE0FB3 /* TimePeriodCollection.swift in Sources */,
+				39896AD7E2573C35F4A82C5EB8F04655 /* TimePeriodGroup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC706FB49980F589801F5A5389F7D11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64EBD2AD2390EBD24ECABADE73EF702 /* NCMB-dummy.m in Sources */,
+				B49247130B057284F1D321FE0CDCCC1A /* NCMB.m in Sources */,
+				9399F21B18F6C63069BB52D584BAA462 /* NCMBACL.m in Sources */,
+				1C00CEEA58DC69F70306EB699B985C30 /* NCMBAddOperation.m in Sources */,
+				9677C3BFCAF4C5327015A6E4041AEED8 /* NCMBAddUniqueOperation.m in Sources */,
+				F8461CFABE3044D91CB2B4A681300A13 /* NCMBAnalytics.m in Sources */,
+				6ECEA1038883806E145E7DCD5D02CC24 /* NCMBAnonymousUtils.m in Sources */,
+				771F219C7BC92100CD54E670109CD5F6 /* NCMBCloseImageView.m in Sources */,
+				03F55A66F1B76B885BFE25D961E45759 /* NCMBDateFormat.m in Sources */,
+				8F26A8E3DF2D46505846EE66D08BB7CE /* NCMBDeleteOperation.m in Sources */,
+				A6689020E1BD51358E6780B1505FDA50 /* NCMBError.m in Sources */,
+				938D935663C0EBB7C19BA6E739F9F5C9 /* NCMBFile.m in Sources */,
+				7384AB611F10D78C88EA41ED92D08D99 /* NCMBGeoPoint.m in Sources */,
+				D687A0D4AE287B5232E0D03BDEF606DD /* NCMBIncrementOperation.m in Sources */,
+				61429DACCE41B6118D4695EE0CFFAEA2 /* NCMBInstallation.m in Sources */,
+				4520F5469BD4F6BD6F16ED1293A694D8 /* NCMBObject.m in Sources */,
+				EC3AA70E889C164C8AFF45BD9396C42F /* NCMBPush.m in Sources */,
+				3903E2E106D9CF51ECE71DD24F9C8872 /* NCMBQuery.m in Sources */,
+				783F1AADEF0E9A74D126C837505D7666 /* NCMBReachability.m in Sources */,
+				6C242D4FF6586055E29D9A24CEF8D679 /* NCMBRelation.m in Sources */,
+				50659BE4953FE9DAB3AF4CBEFCFDB11B /* NCMBRelationOperation.m in Sources */,
+				DF3F196D29C2CB7C3B3F52C0A1D70BD8 /* NCMBRemoveOperation.m in Sources */,
+				5936C5EFBF40CF4B272CE21DB13EFD4C /* NCMBRequest.m in Sources */,
+				D1FD3FEE20EBE81BCABFEDC4D90B177F /* NCMBRichPushView.m in Sources */,
+				B469F5E257EFB98D358B72CE0CA459A2 /* NCMBRole.m in Sources */,
+				4904C82AA1B3E8EF76DCA0839AACCB0F /* NCMBScript.m in Sources */,
+				C86013B1823BA874D74482E39CD0125B /* NCMBScriptService.m in Sources */,
+				47B93EA336FE53B8BC62173C4B527525 /* NCMBSetOperation.m in Sources */,
+				04DCC6FBD9B27C31BD3FA3A608EE2B0A /* NCMBURLSession.m in Sources */,
+				163289DC941E999ED33E11F947796272 /* NCMBUser.m in Sources */,
+				13EC3F7CC34FA7A595724F0B5A619218 /* NSDataBase64Encode.m in Sources */,
+				736BDA866E999B10F20FC59A1A0D2527 /* SubClassHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A1935BC8CAE9803596D5F246B7D87C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DateToolsSwift;
+			target = E89CFD99B895BCC6E8EDC2F95A03500C /* DateToolsSwift */;
+			targetProxy = 48B50956572D3AE78B06505485E04A5B /* PBXContainerItemProxy */;
+		};
+		4288DC0B21740FFDFA2A27BD7C3A18F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDownMenuKit;
+			target = C3B0D4ADAAB95D2754E11D3C6B547D09 /* DropDownMenuKit */;
+			targetProxy = C6AFFCBCB10BA8A1E0ACEC5ED696940A /* PBXContainerItemProxy */;
+		};
+		49AAC1004A770A63FD0B57907690E809 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DateToolsSwift;
+			target = E89CFD99B895BCC6E8EDC2F95A03500C /* DateToolsSwift */;
+			targetProxy = C42D55EA2E647F73B3F459C347595F12 /* PBXContainerItemProxy */;
+		};
+		84C4FC5FED5F3022A9F76EF25CE42560 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FontAwesomeKit;
+			target = A8E1DFAA9703A5C068D915A4C272EA21 /* FontAwesomeKit */;
+			targetProxy = BEBE3BF46D907434C964D59D87745D58 /* PBXContainerItemProxy */;
+		};
+		CB9BAD8EFD1E1C783F37E0FACAE14154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WRCalendarView;
+			target = 6FAACA1020A0109BC651F7DD4E1C82F0 /* WRCalendarView */;
+			targetProxy = 18E448D63FA4BDC88E5755F159433D46 /* PBXContainerItemProxy */;
+		};
+		DC2F5BCA2070291C0CCC57E6FBD82273 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WRCalendarView-WRCalendarView";
+			target = 2B4D1062592D6CA47806B79F65E795E2 /* WRCalendarView-WRCalendarView */;
+			targetProxy = 155FCFE2454894DD08B5D8EFB88CAC16 /* PBXContainerItemProxy */;
+		};
+		FDB76296FAB9CE6E173139F1B05B157C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NCMB;
+			target = 70150FD598FAA13FDC9795CCE8F76926 /* NCMB */;
+			targetProxy = 514FD7C5A1CEF109D65701321A77DDCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A4A73C265EA0678C1F8E5BBE5166539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE904977640A705840FFA5375DF7ECA2 /* DateToolsSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DateToolsSwift/DateToolsSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DateToolsSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DateToolsSwift/DateToolsSwift.modulemap";
+				PRODUCT_NAME = DateToolsSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0D25ACA5F09B9BF03C3DD781C2F91FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B142BB82D66AC96AB345E8FD9F204853 /* NCMB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NCMB/NCMB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NCMB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NCMB/NCMB.modulemap";
+				PRODUCT_NAME = NCMB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		13DBEF06DE6A8D3109EF8BCC2ACB12A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D3FC102D4F584B91965590E332F15F7 /* FontAwesomeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesomeKit/FontAwesomeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesomeKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FontAwesomeKit/FontAwesomeKit.modulemap";
+				PRODUCT_NAME = FontAwesomeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1AE86D39926B3D6D74BE54740BE037E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE904977640A705840FFA5375DF7ECA2 /* DateToolsSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DateToolsSwift/DateToolsSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DateToolsSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DateToolsSwift/DateToolsSwift.modulemap";
+				PRODUCT_NAME = DateToolsSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1F8689BE3CF021DF3431D0AF952ED72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3C804C3E1DD3B8AEAEE47FF14CCEB1A /* DropDownMenuKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDownMenuKit/DropDownMenuKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDownMenuKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DropDownMenuKit/DropDownMenuKit.modulemap";
+				PRODUCT_NAME = DropDownMenuKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		567F1FA0AC8E5999BCF6B96030D57C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B142BB82D66AC96AB345E8FD9F204853 /* NCMB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NCMB/NCMB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NCMB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NCMB/NCMB.modulemap";
+				PRODUCT_NAME = NCMB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5C8BD6E80094468C7229CB7661D0F9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D3FC102D4F584B91965590E332F15F7 /* FontAwesomeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesomeKit/FontAwesomeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesomeKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FontAwesomeKit/FontAwesomeKit.modulemap";
+				PRODUCT_NAME = FontAwesomeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8AF3633C994663C4F0E996914DFC8045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6862E87F935D101E1A5741A394DC4B5A /* WRCalendarView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WRCalendarView";
+				INFOPLIST_FILE = "Target Support Files/WRCalendarView/ResourceBundle-WRCalendarView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WRCalendarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		92FD2C2F066004E7766DE46889959245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 248F2B076CC469D7739774C132CE296B /* Pods-WRCalendarViewSample.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WRCalendarViewSample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WRCalendarViewSample/Pods-WRCalendarViewSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WRCalendarViewSample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		99B432068B5B7677A0C80A85B6ED07A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6DEAE49FC0948FA50C92B8C84FF1F7D /* Pods-WRCalendarViewSample.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WRCalendarViewSample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WRCalendarViewSample/Pods-WRCalendarViewSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WRCalendarViewSample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A3F7E68D7153BE8C4D5839C1A7F75AD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6862E87F935D101E1A5741A394DC4B5A /* WRCalendarView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WRCalendarView/WRCalendarView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WRCalendarView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WRCalendarView/WRCalendarView.modulemap";
+				PRODUCT_NAME = WRCalendarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA0606915DD2670000532EE3F5EB978F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6862E87F935D101E1A5741A394DC4B5A /* WRCalendarView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WRCalendarView";
+				INFOPLIST_FILE = "Target Support Files/WRCalendarView/ResourceBundle-WRCalendarView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WRCalendarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B49AD48C7CD5097BBFCF41F0D730E286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6862E87F935D101E1A5741A394DC4B5A /* WRCalendarView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WRCalendarView/WRCalendarView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WRCalendarView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WRCalendarView/WRCalendarView.modulemap";
+				PRODUCT_NAME = WRCalendarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D796FD9176FD612E7C26446DEF208F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3C804C3E1DD3B8AEAEE47FF14CCEB1A /* DropDownMenuKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDownMenuKit/DropDownMenuKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDownMenuKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DropDownMenuKit/DropDownMenuKit.modulemap";
+				PRODUCT_NAME = DropDownMenuKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EF0251B435B1FD8A5D405A1E79A639 /* Build configuration list for PBXNativeTarget "FontAwesomeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13DBEF06DE6A8D3109EF8BCC2ACB12A8 /* Debug */,
+				5C8BD6E80094468C7229CB7661D0F9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27915B51AE70BE7108C1D020D334E562 /* Build configuration list for PBXNativeTarget "NCMB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D25ACA5F09B9BF03C3DD781C2F91FFC /* Debug */,
+				567F1FA0AC8E5999BCF6B96030D57C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
+				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72365FE04BD69BCC56D8D9231CFA1943 /* Build configuration list for PBXNativeTarget "WRCalendarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B49AD48C7CD5097BBFCF41F0D730E286 /* Debug */,
+				A3F7E68D7153BE8C4D5839C1A7F75AD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B61AC6F6D008632C98B9969AC137E44 /* Build configuration list for PBXNativeTarget "WRCalendarView-WRCalendarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0606915DD2670000532EE3F5EB978F /* Debug */,
+				8AF3633C994663C4F0E996914DFC8045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB08B216C7DEFF998682AA0542C3C5E6 /* Build configuration list for PBXNativeTarget "Pods-WRCalendarViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FD2C2F066004E7766DE46889959245 /* Debug */,
+				99B432068B5B7677A0C80A85B6ED07A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C08AF28F9130F3FFF03EE5F64934672D /* Build configuration list for PBXNativeTarget "DropDownMenuKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F8689BE3CF021DF3431D0AF952ED72E /* Debug */,
+				D796FD9176FD612E7C26446DEF208F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E895CDDD9BD03948FD60B879EF8E23F5 /* Build configuration list for PBXNativeTarget "DateToolsSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4A73C265EA0678C1F8E5BBE5166539 /* Debug */,
+				1AE86D39926B3D6D74BE54740BE037E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

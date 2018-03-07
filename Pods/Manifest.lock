@@ -1,0 +1,53 @@
+PODS:
+  - DateToolsSwift (2.0.3)
+  - DropDownMenuKit (0.8.4)
+  - FontAwesomeKit (2.2.1):
+    - FontAwesomeKit/Core (= 2.2.1)
+    - FontAwesomeKit/FontAwesome (= 2.2.1)
+    - FontAwesomeKit/FoundationIcons (= 2.2.1)
+    - FontAwesomeKit/IonIcons (= 2.2.1)
+    - FontAwesomeKit/Material (= 2.2.1)
+    - FontAwesomeKit/Octicons (= 2.2.1)
+    - FontAwesomeKit/Zocial (= 2.2.1)
+  - FontAwesomeKit/Core (2.2.1)
+  - FontAwesomeKit/FontAwesome (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Material (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Octicons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.2.1):
+    - FontAwesomeKit/Core
+  - NCMB (2.4.3)
+  - WRCalendarView (1.0.1):
+    - DateToolsSwift
+
+DEPENDENCIES:
+  - DropDownMenuKit
+  - FontAwesomeKit
+  - NCMB (from `https://github.com/NIFTYCloud-mbaas/ncmb_ios.git`)
+  - WRCalendarView
+
+EXTERNAL SOURCES:
+  NCMB:
+    :git: https://github.com/NIFTYCloud-mbaas/ncmb_ios.git
+
+CHECKOUT OPTIONS:
+  NCMB:
+    :commit: ff4c625eaa4d0789d03ad90ed572f7bfad8691e4
+    :git: https://github.com/NIFTYCloud-mbaas/ncmb_ios.git
+
+SPEC CHECKSUMS:
+  DateToolsSwift: bf69bf9056d9e53c5c03f06e51f219b9b8b02f9e
+  DropDownMenuKit: 3800deee46883bb09725376d987900768532f588
+  FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
+  NCMB: 7b88a86be4a770bd260f42295c7649b00f57f178
+  WRCalendarView: 80051cb13087892eac70edf2028664cae7bae718
+
+PODFILE CHECKSUM: 84359650f8e4f291c7c2dfadda46acc051039f92
+
+COCOAPODS: 1.4.0

@@ -16,6 +16,7 @@
 		C16AA371204E85370044F922 /* addViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16AA370204E85370044F922 /* addViewController.swift */; };
 		C16AA373204E94F90044F922 /* Button（新規登録）.png in Resources */ = {isa = PBXBuildFile; fileRef = C16AA372204E94F80044F922 /* Button（新規登録）.png */; };
 		C16AA375204E95D40044F922 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16AA374204E95D40044F922 /* APIKey.swift */; };
+		C16AA377204FD4D30044F922 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16AA376204FD4D30044F922 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		C16AA370204E85370044F922 /* addViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addViewController.swift; sourceTree = "<group>"; };
 		C16AA372204E94F80044F922 /* Button（新規登録）.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button（新規登録）.png"; sourceTree = "<group>"; };
 		C16AA374204E95D40044F922 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		C16AA376204FD4D30044F922 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		DEA1D72620B813610C778FAE /* Pods_WRCalendarViewSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WRCalendarViewSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 				C16AA374204E95D40044F922 /* APIKey.swift */,
 				C16AA35E204E7C210044F922 /* ViewController.swift */,
 				C16AA370204E85370044F922 /* addViewController.swift */,
+				C16AA376204FD4D30044F922 /* DetailViewController.swift */,
 				C16AA360204E7C210044F922 /* Main.storyboard */,
 				C16AA363204E7C210044F922 /* Assets.xcassets */,
 				C16AA365204E7C210044F922 /* LaunchScreen.storyboard */,
@@ -237,6 +240,7 @@
 			files = (
 				C16AA35F204E7C210044F922 /* ViewController.swift in Sources */,
 				C16AA371204E85370044F922 /* addViewController.swift in Sources */,
+				C16AA377204FD4D30044F922 /* DetailViewController.swift in Sources */,
 				C16AA35D204E7C210044F922 /* AppDelegate.swift in Sources */,
 				C16AA375204E95D40044F922 /* APIKey.swift in Sources */,
 			);

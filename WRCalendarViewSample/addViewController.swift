@@ -67,9 +67,10 @@ class addViewController: UIViewController, UIPickerViewDelegate , UITextViewDele
     @IBAction func changeScheduleDatePicker(sender: UIDatePicker) {
        
         // フォーマットを生成.
-        let myDateFormatter: DateFormatter = DateFormatter()
-        
+        let myDateFormatter = DateFormatter()
+        myDateFormatter.locale = Locale(identifier: "ja_JP")
         myDateFormatter.dateFormat = "yyyy/MM/dd"
+        
         
         // 日付をフォーマットに則って取得.
         
@@ -81,9 +82,9 @@ class addViewController: UIViewController, UIPickerViewDelegate , UITextViewDele
         
         // フォーマットを生成.
         
-        let myDateFormatter: DateFormatter = DateFormatter()
-        
-        myDateFormatter.dateFormat = "hh:mm"
+        let myDateFormatter = DateFormatter()
+        myDateFormatter.locale = Locale(identifier: "ja_JP")
+        myDateFormatter.dateFormat = "HH:mm"
         
         // 始まる時刻をフォーマットに則って取得.
 
@@ -96,9 +97,9 @@ class addViewController: UIViewController, UIPickerViewDelegate , UITextViewDele
         
         // フォーマットを生成.
         
-        let myDateFormatter: DateFormatter = DateFormatter()
-        
-        myDateFormatter.dateFormat = "hh:mm"
+        let myDateFormatter = DateFormatter()
+        myDateFormatter.locale = Locale(identifier: "ja_JP")
+        myDateFormatter.dateFormat = "HH:mm"
         
         // 終了時刻をフォーマットに則って取得.
         let finishedTime: NSString = myDateFormatter.string(from: sender.date)  as! NSString
@@ -122,8 +123,10 @@ class addViewController: UIViewController, UIPickerViewDelegate , UITextViewDele
         dateFormatter.dateFormat = "yyyy/MM/dd HH:mm"
        
         let span = finishedTimeDate.timeIntervalSince(startTimeDate)
-        let hoursSpan = span/60/60
+        let hoursSpanNormal = span/60/60
+        let hoursSpan = floor(hoursSpanNormal)
         let minutesSpan = (span - hoursSpan*60*60) / 60
+        
         
         object?.setObject(minutesSpan, forKey: "minutesSpan")
         object?.setObject(hoursSpan, forKey: "hoursSpan")

@@ -185,12 +185,12 @@ extension ViewController: DropDownMenuDelegate {
     //スケジュールのload
     func loadSchedule() {
         let query = NCMBQuery(className: "Schedule")
-        
         query?.findObjectsInBackground { (results, error) in
             if error != nil {
                 //検索に失敗した時の処理
                 
             } else {
+                
                 //検索に成功した時の処理
                 if let schedule = results as? [NCMBObject] {
                     for scheduleInfo in schedule {

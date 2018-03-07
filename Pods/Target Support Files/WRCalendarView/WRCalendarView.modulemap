@@ -1,0 +1,6 @@
+framework module WRCalendarView {
+  umbrella header "WRCalendarView-umbrella.h"
+
+  export *
+  module * { export * }
+}
