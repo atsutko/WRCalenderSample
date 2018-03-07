@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B284CCE85EEFEC0DD2F952B7 /* Pods_WRCalendarViewSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA1D72620B813610C778FAE /* Pods_WRCalendarViewSample.framework */; };
 		C16AA35D204E7C210044F922 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16AA35C204E7C210044F922 /* AppDelegate.swift */; };
 		C16AA35F204E7C210044F922 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16AA35E204E7C210044F922 /* ViewController.swift */; };
 		C16AA362204E7C210044F922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16AA360204E7C210044F922 /* Main.storyboard */; };
 		C16AA364204E7C210044F922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16AA363204E7C210044F922 /* Assets.xcassets */; };
 		C16AA367204E7C210044F922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16AA365204E7C210044F922 /* LaunchScreen.storyboard */; };
+		C16AA371204E85370044F922 /* addViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16AA370204E85370044F922 /* addViewController.swift */; };
+		C16AA373204E94F90044F922 /* Button（新規登録）.png in Resources */ = {isa = PBXBuildFile; fileRef = C16AA372204E94F80044F922 /* Button（新規登録）.png */; };
+		C16AA375204E95D40044F922 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16AA374204E95D40044F922 /* APIKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0359B6C5FFAD0D14CB6F7C2D /* Pods-WRCalendarViewSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WRCalendarViewSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-WRCalendarViewSample/Pods-WRCalendarViewSample.release.xcconfig"; sourceTree = "<group>"; };
+		BF86E3C0EE4A5A535AB27DC7 /* Pods-WRCalendarViewSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WRCalendarViewSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WRCalendarViewSample/Pods-WRCalendarViewSample.debug.xcconfig"; sourceTree = "<group>"; };
 		C16AA359204E7C210044F922 /* WRCalendarViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WRCalendarViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16AA35C204E7C210044F922 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C16AA35E204E7C210044F922 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,10 @@
 		C16AA363204E7C210044F922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C16AA366204E7C210044F922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C16AA368204E7C210044F922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C16AA370204E85370044F922 /* addViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addViewController.swift; sourceTree = "<group>"; };
+		C16AA372204E94F80044F922 /* Button（新規登録）.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button（新規登録）.png"; sourceTree = "<group>"; };
+		C16AA374204E95D40044F922 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		DEA1D72620B813610C778FAE /* Pods_WRCalendarViewSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WRCalendarViewSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B284CCE85EEFEC0DD2F952B7 /* Pods_WRCalendarViewSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B5A9506396E0E2594336194 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF86E3C0EE4A5A535AB27DC7 /* Pods-WRCalendarViewSample.debug.xcconfig */,
+				0359B6C5FFAD0D14CB6F7C2D /* Pods-WRCalendarViewSample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C16AA350204E7C210044F922 = {
 			isa = PBXGroup;
 			children = (
 				C16AA35B204E7C210044F922 /* WRCalendarViewSample */,
 				C16AA35A204E7C210044F922 /* Products */,
+				7B5A9506396E0E2594336194 /* Pods */,
+				C5BE03D3204AD9F2B676E865 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +76,25 @@
 		C16AA35B204E7C210044F922 /* WRCalendarViewSample */ = {
 			isa = PBXGroup;
 			children = (
+				C16AA372204E94F80044F922 /* Button（新規登録）.png */,
 				C16AA35C204E7C210044F922 /* AppDelegate.swift */,
+				C16AA374204E95D40044F922 /* APIKey.swift */,
 				C16AA35E204E7C210044F922 /* ViewController.swift */,
+				C16AA370204E85370044F922 /* addViewController.swift */,
 				C16AA360204E7C210044F922 /* Main.storyboard */,
 				C16AA363204E7C210044F922 /* Assets.xcassets */,
 				C16AA365204E7C210044F922 /* LaunchScreen.storyboard */,
 				C16AA368204E7C210044F922 /* Info.plist */,
 			);
 			path = WRCalendarViewSample;
+			sourceTree = "<group>";
+		};
+		C5BE03D3204AD9F2B676E865 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEA1D72620B813610C778FAE /* Pods_WRCalendarViewSample.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C16AA36B204E7C210044F922 /* Build configuration list for PBXNativeTarget "WRCalendarViewSample" */;
 			buildPhases = (
+				EA28662B9B1A93FB096EACF1 /* [CP] Check Pods Manifest.lock */,
 				C16AA355204E7C210044F922 /* Sources */,
 				C16AA356204E7C210044F922 /* Frameworks */,
 				C16AA357204E7C210044F922 /* Resources */,
+				437C3586CD833928D2F7D999 /* [CP] Embed Pods Frameworks */,
+				8480F2A6B54B37C00D219267 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C16AA373204E94F90044F922 /* Button（新規登録）.png in Resources */,
 				C16AA367204E7C210044F922 /* LaunchScreen.storyboard in Resources */,
 				C16AA364204E7C210044F922 /* Assets.xcassets in Resources */,
 				C16AA362204E7C210044F922 /* Main.storyboard in Resources */,
@@ -131,13 +168,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		437C3586CD833928D2F7D999 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WRCalendarViewSample/Pods-WRCalendarViewSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DateToolsSwift/DateToolsSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDownMenuKit/DropDownMenuKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FontAwesomeKit/FontAwesomeKit.framework",
+				"${BUILT_PRODUCTS_DIR}/NCMB/NCMB.framework",
+				"${BUILT_PRODUCTS_DIR}/WRCalendarView/WRCalendarView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DateToolsSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDownMenuKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesomeKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NCMB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WRCalendarView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WRCalendarViewSample/Pods-WRCalendarViewSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8480F2A6B54B37C00D219267 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WRCalendarViewSample/Pods-WRCalendarViewSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA28662B9B1A93FB096EACF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WRCalendarViewSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C16AA355204E7C210044F922 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C16AA35F204E7C210044F922 /* ViewController.swift in Sources */,
+				C16AA371204E85370044F922 /* addViewController.swift in Sources */,
 				C16AA35D204E7C210044F922 /* AppDelegate.swift in Sources */,
+				C16AA375204E95D40044F922 /* APIKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +373,7 @@
 		};
 		C16AA36C204E7C210044F922 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF86E3C0EE4A5A535AB27DC7 /* Pods-WRCalendarViewSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +389,7 @@
 		};
 		C16AA36D204E7C210044F922 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0359B6C5FFAD0D14CB6F7C2D /* Pods-WRCalendarViewSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
